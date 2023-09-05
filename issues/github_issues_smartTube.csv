@@ -1,0 +1,1085 @@
+Issue Number;Title;State;Created At;Updated At;URL;comments;body
+1761;Constant buffering every 2-3 seconds.;open;2022-08-11T03:33:44Z;2022-11-08T07:31:51Z;https://github.com/yuliskov/SmartTubeNext/issues/1761;88;"SmartTube 15.62
+
+Android 10, Onn4k tv streaming box.
+
+Connection is great yet, All of a sudden I am getting buffering every 2-3 seconds making the app unusable. 
+Changing buffer in playback settings (low, medium, high) yields no result at all.    "
+259;2160p60 playback after ExoPlayer 2.12.1 update;open;2020-12-14T10:38:05Z;2021-11-15T13:43:05Z;https://github.com/yuliskov/SmartTubeNext/issues/259;78;"@yuliskov 
+
+I now tried 2160p60 playback on a BRAVIA ATV2 (MediaTek MT5891 @ 1GHz) with STubeNext 10.54 with the updated ExoPlayer 2.12.1. Looks much better now, similar to the original YouTube app. There is some minor micro-stuttering every few seconds left.
+
+I wonder which [MediaCodec mode](https://medium.com/google-exoplayer/improved-rendering-performance-operating-mediacodec-in-asynchronous-mode-and-asynchronous-buffer-3026207850b2) ExoPlayer operates in. I don't see one being explicitly set by STubeNext. So I assume it operates in `OPERATION_MODE_SYNCHRONOUS`? How about [Tunneled playback mode](https://medium.com/google-exoplayer/tunneled-video-playback-in-exoplayer-84f084a8094d)?"
+1762;buffering like hell;open;2022-08-11T19:05:09Z;2022-08-22T06:09:57Z;https://github.com/yuliskov/SmartTubeNext/issues/1762;48;"i know a lot of users have raised this issue but I'm here to emphasize it , video playback is just unbearable the buffering issue just drives you mad. are you ever going to do something about it !!
+i have downloaded both stable and betta both have the same problem . i know it's not my internet connection or my streaming device issue ."
+658;Lots of buffer breaks ;closed;2021-06-05T21:55:36Z;2021-08-10T22:45:01Z;https://github.com/yuliskov/SmartTubeNext/issues/658;45;"I usually use SmartTubeTv and I noticed the video buffering works not so good in SmartTubeNext. 
+
+Most Videos are stuttering with the default setting. Increasing the buffer helps. 
+
+I did not need to adjust any buffer settings in SmartTubeTv to watch videos without any buffer breaks. 
+
+Running on:
+Firetv Stick 4k, version 11.28"
+2271;Video Source isn't working or incorrect time;open;2023-03-01T14:39:01Z;2023-07-30T19:11:43Z;https://github.com/yuliskov/SmartTubeNext/issues/2271;44;Just updated to 17.23 Beta, and getting a lot of Vidoe Source isn't working or incorrect time errors. The screen goes black for a few seconds, then continues to play.
+1764;Buffering;open;2022-08-11T21:21:33Z;2022-08-19T09:15:30Z;https://github.com/yuliskov/SmartTubeNext/issues/1764;43;Just updated buffering every 2 seconds. No other steaming service has an issue and a speed  test is fine . Firestick 4k 
+1661;Constantly Buffering/Loading Issues;open;2022-07-01T18:06:41Z;2023-02-20T05:50:10Z;https://github.com/yuliskov/SmartTubeNext/issues/1661;42;"Hi,
+
+Ever since the past few updates I've been having constant buffering/loading issues. It will buffer and then resume a number of times when watching a video.
+
+Sometimes the buffering/loading is longer and shows an error that says  ""Video source isn't working or correct time."" It then resumes and plays for a bit and then buffers again.
+
+I've tried restarting my device but that didn't fix it.
+
+Anyone else having this issue?"
+1215;how to use youtube kids on Smart youtube;open;2022-01-11T05:26:40Z;2023-04-14T05:07:13Z;https://github.com/yuliskov/SmartTubeNext/issues/1215;35;I use two accounts on my smart tv how to set youtube kids on the second account?
+11;[Feature Request] Sponsorblock integration;closed;2020-10-16T20:21:39Z;2021-02-05T07:55:31Z;https://github.com/yuliskov/SmartTubeNext/issues/11;32;"I think it would be a good idea to have Sponsorblock integration added to SmartTubeNext because it would improve the user experience by blocking ads that can't be blocked by adblockers. Other YouTube clients like YouTube Vanced and NewPipe also have Sponsorblock support. Unfortunately there aren't any Android TV YouTube clients with Sponsorblock support which is a shame because unlike on mobile skipping portions of videos on Android TV is tedious due to the limited controls.
+Bellow are some links to some information on Sponsorblock that might be useful.
+
+Sponsorblock Resources
+
+[Sponsorblock Source](https://github.com/ajayyy/SponsorBlock)
+
+[YTVanced Version](https://github.com/YTVanced/SponsorBlock) "
+676;Videos stopped loading today;closed;2021-06-17T22:08:08Z;2023-08-30T20:06:09Z;https://github.com/yuliskov/SmartTubeNext/issues/676;31;"**EDIT: Update SmartTubeNext v11.37 was pushed out with a fix, and videos are loading again**
+
+
+No video loads anymore as of the last hour. When trying to load videos it only displays ""..."" for the title and playing time is 0:00
+
+I am getting the same results in a FireTV Cube 2nd gen with SmartTubeNext 11.33, and MiBoxS with SmartTubeNext 11.22.
+
+I'm guessing that YouTube/Google either changed something in their end or are blocking SmartTubeNext? YouTube Vanced is still working.
+
+EDIT: Update SmartTubeNext v11.37 was pushed out with a fix, and videos are loading again
+
+"
+851;"From today, has ""lost"" all my subscriptions, history, channels etc.";open;2021-08-30T23:39:20Z;2023-05-15T19:27:57Z;https://github.com/yuliskov/SmartTubeNext/issues/851;28;"I last updated the app Yesterday on my Sony TV.
+
+Playlist, History, and Channels are all plain black today, Subscriptions says ""Oops. Can't load content. Try to login again via settings"".
+
+I updated the app again just now (to Beta 12.41), and it's still saying the same thing.  I rebooted my TV - same problem.
+Running the real Youtube app still works OK (subscriptions etc show properly).
+
+I still have the old ""Smart Youtube TV"" app installed as well - web_20210829_10_RC00 - which is a curious version, since I've not updated that since I installed more than a month ago. It's still showing all my subscriptions etc fine (although playing ads) 
+
+Something internally must be broken with the latest version(s).
+
+Additionally - I created a new youtube account and logged in to that - same problem as above (the ""Oops."" error).
+Note that the error says ""Try to login again via settings"" - but there is no way in the settings I can see to do that (this is also a new account, so it's clearly not a login problem really).
+
+I also did, in the ""Settings"" under ""Accounts"", the option ""Select on  boot"" - so when I start the app, I can now select one of the 2 accounts I've got each time - presumably this will ""log in"" to that - but it's still showing black-screens for Playlist, History, and Channels and ""Oops"" on subscriptions every time for both accounts."
+627;Smartyoutube Next is not working;open;2021-05-20T03:53:51Z;2023-05-24T14:48:10Z;https://github.com/yuliskov/SmartTubeNext/issues/627;28;"Smartyoutube Next is not working. Black screen when playing video. 
+All version is not working( Android 4., 7.,9.)
+Can you  help me to fix this problem?
+Thanks
+"
+622;error building...;open;2021-05-14T15:47:50Z;2022-06-18T18:26:55Z;https://github.com/yuliskov/SmartTubeNext/issues/622;28;"Task :smarttubetv:compileStorigDebugJavaWithJavac FAILED
+/home/mido/Documents/SmartTubeNext/smarttubetv/src/main/java/com/liskovsoft/smartyoutubetv2/tv/ui/mod/leanback/surfacefragment/TextureViewWrapper.java:14: error: package com.liskovsoft.smartyoutubetv2.tv.ui.mod.leanback.tmp.surface.textureview does not exist
+import com.liskovsoft.smartyoutubetv2.tv.ui.mod.leanback.tmp.surface.textureview.TextureViewSurfaceHolder;
+"
+1276;"Only certain videos won't play - error message reads ""video source isnt working or incorrect time""";open;2022-01-29T15:44:48Z;2023-07-26T10:04:52Z;https://github.com/yuliskov/SmartTubeNext/issues/1276;26;"Only certain videos won't play - error message reads ""video source isn't working or incorrect time""
+App is up to date, nvidia shield pro 2019
+videos that produce issue:
+https://www.youtube.com/watch?v=eg3Jcv-a0cI
+https://www.youtube.com/watch?v=nAmfCdnucWs"
+2115;Feature request: Hide shorts from channels;open;2023-01-08T04:48:06Z;2023-04-26T18:21:34Z;https://github.com/yuliskov/SmartTubeNext/issues/2115;24;Thank you for the great work. Please add an option to hide shorts from channels, similar to the option to hide shorts from subscriptions, history and home. Thanks again.
+1745;subtitle...automatically translate;open;2022-08-03T19:30:57Z;2022-12-21T01:03:56Z;https://github.com/yuliskov/SmartTubeNext/issues/1745;24;"can we have the option automatically translate subtitle...Like youtube desktop !
+thank you for all
+"
+1724;For 16:10 monitors/displays, custom aspect ratio options, especially 16:8.1 (1.9753:1) needed!;open;2022-07-28T17:11:37Z;2023-07-28T03:04:20Z;https://github.com/yuliskov/SmartTubeNext/issues/1724;24;"**SmartTube version:** 15.30
+**Device:** X96 Air S905X3 Android TV Box (Android 9 Pie)
+**Monitor:** Samsung SyncMaster 933NW+, 19"" 1440x900, 16:10  (with a HDMI to VGA active converter)
+**Sample Test Video:** Youtube video named ""FULL HD PM5644 test pattern - 1920 x 1080 60p - 1 Hour with 1Khz sound.""
+
+**Problem:** On 16:10 monitor, standard 16:9 youtube videos seem distorted, as vertically stretched and not proportional.
+**Probable solutions:** Adding custom aspect ratio option for editing, or at least a preset AR as **16:8.1 (1.9753:1)** would solve most probably.
+
+I still use an ancient 19"" 16:10 1440x900 VGA Samsung monitor with a Windows PC and a X96 Air S905X3 Android TV Box. When i watch standard 16:9 youtube videos on Firefox on windows PC, the image is proportional and very well scaled. Of course there are approximately ~13mm black bars on top and bottom of the display, which is totally normal and expected. The photo below shows this situation, as you may see the circles, squares are totally scaled:
+
+![000 Windows PC Firefox Duzgun](https://user-images.githubusercontent.com/67484569/181565008-884b5912-61af-4abc-8829-8e6f2d73677f.jpg)
+
+But when i use this same 16:10 monitor on Android TV Box, the YT videos are full screen with no black bars on top and bottom, so the image is NOT proportional and NOT well scaled.  This is also expected, because Android TV Box outputs only 16:9 resolutions such as 1920x1080 or 1280x720. There's no option to select a 16:10 output such as 1440x900 or 1280x800 etc. The vertically stretched image can be seen on the photo below (the distorted figures are obvious):
+
+![010 X96 Air SmartTube Bozuk](https://user-images.githubusercontent.com/67484569/181572167-bf0530d8-f71a-49a2-9fc7-8b9872fda254.jpg)
+
+Then, how will we solve this problem? I know that a lot of people -want to- use their 16:10 monitors with their android Tv Boxes, mostly with HDMI to VGA converters, like me. I searched the web for a probable usage of custom resolutions on android tv boxes, at least with the rooted ones, but to NO avail. So i think the only solution will be using different aspect ratios for the videos. This will not solve the distorted images on TV Box menus, applications, games etc., but we can achieve well scaled images on videos, films at least.
+
+So i checked the Aspect Ratio presets on the SmartTube app, but the available AR options are not the required one for 16:9 videos on 16:10 displays. Yes, there's a ""16:10"" option, but this is for the internal video scaling, just like the others. Choosing it makes an opposite effect on the display and we have black bars on the left and right sides, not up and down, the image seems squeezed from the sides. Choosing a bigger value like ""2.21:1"" makes a higher change than the required, and makes the image more squeezed vertically, the black bars become more wider than needed.
+
+**Then, we need a proper aspect ratio. I think it can be calculated as follows:**
+16:10 AR is 10/9=1.1111... times bigger vertically than the 16:9 AR.
+To make the opposite effect on the image, we need to divide 9 with that result:
+9/1.1111...=8.1
+
+**So we need a custom aspect ratio of ""16:8.1"" (which is also ""1.9753:1"")**
+
+After calculating this result, i checked it with the 2 different android apps; MX Player and KODI.
+
+**MX Player** doesn't have a ""16:8.1"" preset, but has a ""Custom"" option in ""Aspect Ratio"" setting. Editing ""Custom Aspect Ratio"" as ""16:8.1"" (or ""1.9753:1"") fixes the 16:9 video distortion on 16:10 monitor. I get the 13mm thick black bars both on top and bottom of the screen on this particular 19"" 1440x900 monitor, just like the situation in windows PC:
+
+![021 X96 Air MXPlayer AR-16-8 1 Duzgun](https://user-images.githubusercontent.com/67484569/181584390-b4b06bd4-dd34-4fd9-8a0d-7bd4ed68b635.jpg)
+
+**KODI** doesn't have a ""16:8.1"" preset, either. And i couldn't find other AR parameters or a custom AR option. But KODI has a ""**Pixel ratio**"" option in ""Video settings"". Setting ""Pixel ratio"" to ""1.11"" fixes the 16:9 video distortion on 16:10 monitor, on Android Tv Box:  (I guess this ""Pixel ratio"" option may be a universal solution for appropriate image scaling on non-standard displays, I'm not sure though.)
+
+![031 X96 Air Kodi PR-1 11 Duzgun](https://user-images.githubusercontent.com/67484569/181589146-c9e4d87a-af27-4e35-8da7-24d8466460c6.jpg)
+
+
+So, long story short:
+@yuliskov 
+Please find a proper solution to this relatively significant inconvenience :
+
+* Add a ""**16:8.1**"" (""1.9753:1"") preset to the Aspect Ratio parameters, at least.
+or
+* Add a ""**Custom Aspect Ratio**"" to the AR options, where we can enter some specific parameters such as ""16:8.1"" (""1.9753:1"").
+or
+* Add a ""**Pixel ratio**"" option in video settings, where we can enter some specific values such as ""1.1111"" . (Just like in KODI)
+or
+* **???**
+
+**Thanks a lot for your efforts on this great application! And thanks to all contributors!**"
+1767;Google account Playback not working v15.78;open;2022-08-11T23:48:44Z;2022-08-12T18:38:24Z;https://github.com/yuliskov/SmartTubeNext/issues/1767;20;"Hi all
+Playback fixed thanks 👍"
+1007;Is 'Add to Watch later' new additional menu really needed?;closed;2021-10-26T03:16:18Z;2021-12-01T08:35:02Z;https://github.com/yuliskov/SmartTubeNext/issues/1007;20;"Please consider reverting 'Add to Watch Later' additional menu from SmartTubeNext 13.31. 
+This looks like a redundant setting which annoyingly increased the number of keypressing with additional steps, when you need to choose another playlist. It gets even more disturbing when you need to switch playlists for a video. 
+
+Here's my point:
+Normally, prior to this modification, accessing 'Add/Remove from playlist' (from player button or context menu) gets you directly to playlist checklist anyway - where you just have to set or remove ""Watch Later"" playlist - because it's always the first one on the checklist. Is just that simple, and should be enough for this setting. Is almost as short as it can be. One press for the player button and two for the context menu. 
+Adding an extra ""Add/Remove to watch later"" now, has no major benefits as shortcut, cause its practically the same number of minimum keypresses (in player).  Instead it's making the access to other lists one more extra menus and selection away every time.
+Please reconsider this. It was just fine before this change. 
+Thanks
+
+
+"
+667;Unable to link the device;open;2021-06-12T10:00:09Z;2022-08-05T23:04:00Z;https://github.com/yuliskov/SmartTubeNext/issues/667;20;Unable to link the device, everytime I enter the code on my phone YouTube app it shows ! mark. Hence I'm unable to cast phone YouTube video to TV.
+2587;[BUG] Persistent video playback errors, all versions;closed;2023-06-01T16:32:23Z;2023-06-15T18:25:20Z;https://github.com/yuliskov/SmartTubeNext/issues/2587;19;For the past two or three days, there is a message on every video that the source is unavailable or at the wrong time.  The video pauses for a few seconds and then comes back on and then does the same thing again after a while.  Version 18.12, but in earlier versions too.
+2352;Video source isn’t working or incorrect time;open;2023-03-27T01:24:37Z;2023-06-25T14:58:47Z;https://github.com/yuliskov/SmartTubeNext/issues/2352;19;I’m getting this error at least once per video. Device I’m using is Nvidia shield TV
+1893;painful slow loading works fine with VPN  ... ISP?;open;2022-09-26T17:47:41Z;2023-02-05T17:14:48Z;https://github.com/yuliskov/SmartTubeNext/issues/1893;19;"randomly slow loading of menu minutes at a time problems with login in
+almost like the connection is being randomly dropped 
+but no issue on the other apps or default youtube 
+i'm in the uk
+- used different DNS
+- defaulted back to isp router from pfsense
+- uninstalled and reinstalled app stable and beta old and new
+- ran it on multiple fire tv 4K sticks
+
+what worked was running it through a VPN 
+it must be my ISP Virgin Media 
+but the funny thing is everything else works including the YouTube but not this app
+I'm guessing something might be blocked at the ISP level
+
+I guess there is nothing which  the developer can do unless it's a funny bug to do with TTL something like that
+just hope the Post help somebody else
+if anybody needs more info feel free to post
+"
+1263;Error occured pop up on firestick even when not using smartube;open;2022-01-26T23:07:48Z;2022-01-29T16:50:56Z;https://github.com/yuliskov/SmartTubeNext/issues/1263;19;"Getting this popup on firestick 4K, even when not using smart tube
+
+![9766AB5A-0D16-4CCA-B922-B415217C8B9F](https://user-images.githubusercontent.com/86478803/151262221-2befe533-8be5-4e06-89ec-8d4210cd7dd5.jpeg)
+
+"
+2637;Still not solved the video source error;closed;2023-06-20T14:35:00Z;2023-08-29T05:46:08Z;https://github.com/yuliskov/SmartTubeNext/issues/2637;18;"It continues appearing the alert ""The video source isn't working or incorrect time"", and sometimes appears a new one ""Loadsuggestions error: fromNullableresult is null"", I have the last 18.27 stable version."
+677;black screen when playing video;closed;2021-06-17T22:20:04Z;2021-06-18T12:36:32Z;https://github.com/yuliskov/SmartTubeNext/issues/677;18;"Hi there,
+
+The app has been working flawlessly for very long, today after watching a video the player went black with just the title showing. I played with the settings and doesn't seem to get back to normal.
+
+any way to solve this?
+
+Thanks"
+139;HDR Not Working;closed;2020-11-13T23:38:48Z;2023-02-18T00:35:01Z;https://github.com/yuliskov/SmartTubeNext/issues/139;18;"Whenever selecting an HDR video format, playback stops, despite devices supporting it. This seems to happen at all resolutions/framerates when HDR is selected.
+
+Device: Shield 2019
+TV: LG CX"
+2415;"""Video source isn't working or incorrect time""";closed;2023-04-16T15:15:53Z;2023-07-28T13:02:15Z;https://github.com/yuliskov/SmartTubeNext/issues/2415;17;As of today, have been getting this error popping up again! Leaving the video running, it goes to a black screen and sometimes reloads after a pause. I did have an update, Beta 17.67, today, but was happening before this.
+2381;Playback option defaults after update;closed;2023-04-08T09:04:58Z;2023-04-11T16:11:23Z;https://github.com/yuliskov/SmartTubeNext/issues/2381;17;The last approx 4 updates to STN beta  (currently on 17.61) have reverted my default playback option to play videos continuously rather than keeping my previous setting of stop playback after one video.  This jas happened in much earlier builds but was fixed quickly, and now appearing again.  As far as I can tell this is the only option that changes after an update.  
+1511;Lots of buffering and videos not playing;open;2022-05-11T15:10:48Z;2022-09-05T07:36:29Z;https://github.com/yuliskov/SmartTubeNext/issues/1511;17;"I am using an Nvidia Shield with both SmartTube and STN Beta both installed and am having the same problems on both.
+
+This started about a month ago, before this everything was just fine.  I typically play my videos with 1.5-2x speed, depending on the content producer.  Now my videos are constantly buffering if they play.  Many times the video will just hang on the loading screen.  Sometimes I can restart the video and it will work, most of the times it will not.  I have changed my video settings since I saw that some videos were running in 2160p, I went to the 1080p vp9 since I do not need 4k and thought it could be a problem with the bandwidth being too much (it shouldn't be 200mbps on ethernet and I never had a problem until about a month ago).
+
+I have reinstalled the app, reset data.  Done updates.  These problems have happened in the past but an update usually takes care of them really fast.  So I was wondering if anyone else is having this problem or what is going on?
+
+Thanks "
+1264;Error message while in another app;closed;2022-01-27T05:43:58Z;2022-02-06T23:15:19Z;https://github.com/yuliskov/SmartTubeNext/issues/1264;17;"I was watching a movie in HBOMax and an error message mentioning a log file came up a few times. I ignored it for the time being. When I loaded back into STN stable 13.81 I got it again. Took some doing but finally got a copy of the file that I could submit
+[ModernClientData.txt](https://github.com/yuliskov/SmartTubeNext/files/7947890/ModernClientData.txt)
+
+Fire TV OS 7.2.6.8
+
+"
+686;App closing down and returning to home screen every time a video ends;open;2021-06-18T17:51:54Z;2021-06-27T00:58:33Z;https://github.com/yuliskov/SmartTubeNext/issues/686;17;"I'm on CCWGTV with version 11.37. Did an update this morning, and now every time a video finishes in the app, it shuts down and returns to the home screen of the CCWGTV. It opens back up fine and plays videos without issue (before the update I was having the ""videos not playing issue"" reported here, where when I opened the video, it would simply sit there, black, at 0:00 and not play - this was apparently fixed, at least for me, by the update), but it's very odd and quite off-putting when you're watching through a playlist on auto-play. "
+681;11.37 stopped working on all the devices;open;2021-06-18T10:41:52Z;2021-06-21T06:31:33Z;https://github.com/yuliskov/SmartTubeNext/issues/681;17;It displays everything fine in terms of the screen interface. However when we go into any video it does not play. However the video interface looks fine but the play/stop does nothing so we can't watch any video. It is happening on my smartTV and laptop with bluestack.
+611;Issues with playback;open;2021-05-04T19:34:23Z;2022-02-02T02:38:51Z;https://github.com/yuliskov/SmartTubeNext/issues/611;17;Problems launching video. States 'cannot download video'. Videos that are launched will suffer periodic freezes. Cache cleared. Reinstalled. No issue launching app. Possible decoder issues? I know you said this version was a little unstable.
+104;4k 60fps lag and the frame was not smooth;closed;2020-11-08T01:26:30Z;2021-11-27T03:44:22Z;https://github.com/yuliskov/SmartTubeNext/issues/104;17;The device that I use is a Sony 55x7000d TV
+1794;No options to hide Shorts in my subscriptions section (STN Beta 15.81);open;2022-08-17T12:24:27Z;2023-07-26T23:06:33Z;https://github.com/yuliskov/SmartTubeNext/issues/1794;16;No options to hide Shorts in my subscriptions section
+1506;Add/Remove from recent playlist is confusing now;closed;2022-05-09T01:32:05Z;2022-06-19T15:26:10Z;https://github.com/yuliskov/SmartTubeNext/issues/1506;16;"So before the update, the option would have either ""Add to 'Recent playlist'"" or ""Remove from 'Recent Playlist'"" which let users know if videos were already added
+
+But now, whether a video is in a recent playlist or not it will only have ""Add/Remove from 'Recent playlist'"" and you wouldn't know if that video was added or removed"
+486;"""Repeat current video"" plays only twice following with permanent loading circle-sign.";closed;2021-02-20T21:39:22Z;2021-02-24T19:15:13Z;https://github.com/yuliskov/SmartTubeNext/issues/486;16;"""Repeat current video"" plays only twice following with permanent loading circle-sign."
+236;Add touch screen controls and screen scaling.;open;2020-12-05T09:20:28Z;2022-12-11T07:34:44Z;https://github.com/yuliskov/SmartTubeNext/issues/236;16;Great app to watch on TV I would like to see support for devices without a control panel, with a touch screen. On tablets and smartphones. The function of scaling the image for non-standard displays is missing.Good luck with the development of the project. 
+729;Not working;open;2021-07-01T00:20:31Z;2021-07-01T05:47:25Z;https://github.com/yuliskov/SmartTubeNext/issues/729;15;"Like the other day, the app loads the interface, but refuses to play anything.
+Running on MiBox S on 2 different TVs. Was working fine on our living room TV, but not on our bedroom TV. Tried to restart the device, as well as force quitting and clearing data, but no dice.
+Restarted living room device and now have the same problem there as well.
+
+**Update 11.47 fixes issue**"
+652;The app does not record watched video into the history ;open;2021-06-04T10:18:58Z;2021-06-19T12:03:14Z;https://github.com/yuliskov/SmartTubeNext/issues/652;15;When I play a video in the app it doesn't record that I've watched the video in the History section. I think the issue is that the request for /api/stats/playback has changed and probably need to add some new parameter into the request to be able make a record. Same applies for  /api/stats/watchtime request. I hope the info has helped :)
+2382;Do not recommend channel feature missing;open;2023-04-09T00:30:42Z;2023-08-22T12:08:00Z;https://github.com/yuliskov/SmartTubeNext/issues/2382;14;"I saw that in the Change Log of this latest update, 17.61, there is a new feature: ""New context menu item: Do not recommend channel""
+
+Where is it? How does it work? Where do I go to be able to use it?
+
+Device: FireTV"
+1908;Simpler Closed Captions (subtitle) selection;open;2022-10-05T22:41:13Z;2023-05-26T03:29:44Z;https://github.com/yuliskov/SmartTubeNext/issues/1908;14;"To make the closed captions (subtitle) selection experience much better please consider adding:
+1. Removing the multiple menus one must go through to select sub language and make sub language the first option to show up when clicking on the button with a fast on/off option accessible in the list
+2. Remember subtitle selection between videos instead of having to re-enable per-video
+3. Add support for the TEXT button on remotes (as with YT app)
+
+Subtitles are an important and useful accessibility and general usability feature and it would be great for this fantastic app to have better support for them."
+1587;Youtube History not showing more than 1 day. STN Beta issue;closed;2022-05-31T17:00:11Z;2022-10-13T18:41:22Z;https://github.com/yuliskov/SmartTubeNext/issues/1587;14;"Strange thing: Suddenly, Youtube History not showing more than 1 day of records (Today), on my account. So I cannot see any history older than Today, in any circumstance. Except from Google settings management account. So, the full history is present.
+This is happenning to both STN beta/stable apps, but also at any YT app or platform. Including official app, web or mobile interface. Only today history shown, and not a single item older. So this may not be related to STN !    BUT....
+
+This started to happen exactly right after I made a search in STN with ""Today"" selected as a filter (for the first time ever).  Google history account logs shows that right after this filtered (SmartTube made) specific search, no records of Youtube history are kept for more than one day. It's already been a week since then, no improvement.
+
+@yuliskov , please - any ideea if SmartTube search setting time filter interval could be linked to other YT functions?
+Tried a lot of workarounds, running out of options/ideas.....
+Thanks"
+1262;"Error - Notification ""moderndataclient"" file for support";open;2022-01-26T22:42:34Z;2022-01-30T06:13:07Z;https://github.com/yuliskov/SmartTubeNext/issues/1262;14;"Hello, 
+Since 2022/01/26 I am getting an error asking to send some ""modernclientdata"" file for support. I have the latest beta version 14.04 of STN installed on my AmazonTV Firestick.
+
+The app is still running fine, but the notification appears very frequently and it's very annoying: it pops up even when playing videos on other apps from FireTV, like the movie player of Amazon Prime itself.
+
+Here a picture of the full notification message:
+
+![-5157131906104535529_121](https://user-images.githubusercontent.com/19991117/151258662-b59afd2d-77e9-4ad7-bf38-30a2da1a85ec.jpg)
+
+It doesn't have any other side effect that I know, but the notification is too frequent and annoying. Maybe you can fix it via update or maybe recommend to install an older version of STN
+
+Please answer. Thanks in advance.
+"
+1029;History not recording;open;2021-11-04T23:58:31Z;2022-06-04T19:24:11Z;https://github.com/yuliskov/SmartTubeNext/issues/1029;14;"Hi,
+
+I have only recently started using SmartTubeNext and I have noticed that the history isn’t recording when using STN. It seems to record 4 videos and then when I watch another video it then removes the 4th video.
+
+What’s strange is that all my other history shows from 13th Oct back but I haven’t been using STN for that long. I’ve probably been using it for about a week now. Also if I watch a video half way and come back to it a few hours later it will pick up where it left off but not show in my history.
+
+I’m using version 13.42 beta on an NVIDIA Shield.
+
+Are there any known issues with this?
+
+Thanks"
+471;Release on F-Droid;open;2021-02-14T16:41:44Z;2021-09-09T06:26:29Z;https://github.com/yuliskov/SmartTubeNext/issues/471;14;"I was searching for [SmartTubeNext on F-Droid](https://search.f-droid.org/?q=smart+tube) but I was unable to find it.
+IMHO [the license](https://github.com/yuliskov/SmartTubeNext/blob/master/LICENSE.md) should be fine but I don't know about the dependencies.
+
+It would be great if you could make SmartTubeNext available on F-Droid.
+
+**PS:** Thank you for creating SmartTubeNext :pray: 
+**PPS:** If you are considering to publish SmartTubeNext on F-Droid, you probably might be interested [the FAQ](https://f-droid.org/en/docs/FAQ_-_App_Developers/#how-do-i-get-my-app-included) and maybe [this guide](https://dev.to/sanandmv7/how-to-publish-your-apps-on-f-droid-2epn)
+**PPPS:** I'm not an Android developer or related to F-Droid. So I don't know about technical limitations in case there are some."
+385;Sponsorblock - missing options;open;2021-01-26T17:36:08Z;2021-03-02T02:51:38Z;https://github.com/yuliskov/SmartTubeNext/issues/385;14;"1. ~~It is only blocking sponsors segments and not the other five types you can block from what I can see. Like intros.~~
+2. It isn't highlighting the section's on the progress bar.
+3. ~~Update settings to enable/disable segments, enable/disable notification~~
+4. Setting to temporarily disable sponsorblock skip when manually seeking
+5. overhaul confirmation dialog. auto timeout dialog based on (segment length - 3 seconds). Maybe don't skip segments below 3 seconds if the dialog option was chosen.
+6. a way for smoother skips? maybe don't cache skippable sections and cache ahead?
+
+
+"
+1649;"Clock and date to US Style ""12hr/mm.dd,yy""";closed;2022-06-28T23:22:31Z;2022-07-20T14:09:32Z;https://github.com/yuliskov/SmartTubeNext/issues/1649;13;"~~Cards on some clips (without special still card set - try Reuters for example), have a thick black border around the image. This is happening **only** on STN and STN Beta. YT web, app or other apps are fine. v15.05 fixed the card animation, but the thumbnail thick black border is still there.~~  Solved
+
+Also, just since v15.05 update, STN Beta clock has permanently changed to 12hr setup, permanently displaying that annoying AM/PM indication both on main screen and also on player. My app and regional country settings are all set for 24hrs clock. There is no other app in my TV that shows 12hr clock. Only STN, since v15.05. @yuliskov, please please revert this setting at least how it was before this update, or make it an optional setting. #1639 
+Update: Looks like an Country setting work in progress, Country setting is changing time/date behaviour.
+"
+680;11.37 sudden video download error;open;2021-06-18T03:22:41Z;2021-06-23T12:57:03Z;https://github.com/yuliskov/SmartTubeNext/issues/680;13;"Android TV 9: Same issue as everyone else with the black screen. 11.37 fixed it but after an hour of watching videos ""can't download video"" persists on random videos. It was functional earlier but just randomly stopped working"
+602;Playback error on nearly all videos;open;2021-04-29T15:54:59Z;2021-05-29T20:31:55Z;https://github.com/yuliskov/SmartTubeNext/issues/602;13;"Hi,
+Almost every time I launch a video I get a decoding error for a few seconds then the video starts. It's starting to become really annoying, is there a way to resolve that? 
+I'm on a Nvidia Shield"
+596;Cannot watch age restricted videos;open;2021-04-24T21:19:24Z;2022-04-05T01:48:37Z;https://github.com/yuliskov/SmartTubeNext/issues/596;13;"I am getting an age restricted prompt when trying to watch age restricted videos. I do have the age set in my account settings. Age restricted videos work in browser with that account, but in SmartTube I am blocked off by the age restriction. Is there any way to fix this? Perhaps add age restriction as a switch to the options?
+
+SmartTubeNext version 11.3"
+592;failed  to  install the  newest  version on  mi box;open;2021-04-24T07:20:44Z;2021-08-01T12:12:02Z;https://github.com/yuliskov/SmartTubeNext/issues/592;13;"![IMG_20210424_101751](https://user-images.githubusercontent.com/25093437/115950872-6bb4c180-a510-11eb-8b73-40650aefc0fb.jpg)
+failed  to  install the  newest version  on   
+mi  box?Anyone  knows?"
+358;when i upgrade the newest version today, it crashes whenever i launch the app.;open;2021-01-20T15:24:01Z;2021-01-29T13:29:34Z;https://github.com/yuliskov/SmartTubeNext/issues/358;13;could you fixit?
+17;Feature request: List of subscribed channels;closed;2020-10-18T10:00:06Z;2021-05-07T12:47:36Z;https://github.com/yuliskov/SmartTubeNext/issues/17;13;Please add a list of subscribed channels in the subscription menu so we can preselect by channel. 
+2390;Permanently deactivate Auto Play next Video?;open;2023-04-09T11:34:01Z;2023-05-06T15:53:20Z;https://github.com/yuliskov/SmartTubeNext/issues/2390;12;"Since one of the last updates, the app no longer remembers what it is supposed to do at the end of the video.
+Normally, I had it set to stop after the end of the video and not to play the next video.
+Now, every time the app is started, the videos are no longer stopped at the end, but auto-play is active.
+Is there a way to change this in the settings, or is this a bug in the software?"
+1876;History;closed;2022-09-21T08:51:47Z;2022-09-28T17:07:07Z;https://github.com/yuliskov/SmartTubeNext/issues/1876;12;"Hello, I am using smarttube 15.81 on a fire tv 4k max stick. I have the problem that the history is not saved. But I can see the history of the videos I've looked at on the pc. any suggestions?
+greetings
+sixer
+"
+1386;"""Video May Be Inappropriate for Some Viewers"" issue";open;2022-03-27T22:03:15Z;2022-08-24T17:45:34Z;https://github.com/yuliskov/SmartTubeNext/issues/1386;12;When attempting to watch certain videos, generally videos that feature some sort of police procedure, or a shooting, a message appears saying that the video may be inappropriate for some users. This does not occur on standard YouTube. My Settings don't normally cause this effect. This has happened before and resolved itself at some point. And now, it's happening again. Any assistance offer is greatly appreciated, thank you very much for this wonderful app.
+1306;no youtube code;open;2022-02-11T10:23:02Z;2022-02-23T06:53:41Z;https://github.com/yuliskov/SmartTubeNext/issues/1306;12;no youtube code
+672;Version 11.33 lots of stuttering and video not playing ;open;2021-06-16T01:30:53Z;2021-06-28T23:09:26Z;https://github.com/yuliskov/SmartTubeNext/issues/672;12;Still with the latest verdion 11.33, I am getting more problems with video playback than ever before but it was also a probem in the past. Buffering and stuttering or not playing after working fine for a while. Also still getting the video codes not recognised message too which does resolve itself, but borrows 10 seconds of my time. I've got a fast Internet connection, so am not enjoying these problems at all. Hopefully they can be fixed permanently. Wiped days and cache in the hope of having a fresh install working better, but it didn't help at all. 
+641;11.27 Crashes Firestick Installer ;closed;2021-06-01T05:32:55Z;2021-06-15T10:07:34Z;https://github.com/yuliskov/SmartTubeNext/issues/641;12;"I have been using SmartTubeNext since the beginning and never have encountered any issue until now. Suddenly I started SmartTubeNext on my Firestick 4k and got a notification from the app that there was an update for SmartTubeNext Version 11.27. I clicked the ""Install Update"" from there is when the installer menu pops up and then suddenly crashes. I have installed other Apps on my Firestick to make sure it wasn't the Firestick itself and to diagnose the issue. Yet SmartTubeNext is the only App this happens with. If in need of anymore information please let me know. Thanks for your hard work and great application.
+Specs are as follows:
+Fire OS 6.2.7.3
+Fire TV Home Version: 6240042.1
+SmartTubeNext Installed version: 11.22
+SmartTubeNext Settings: SponsorBlock Enabled
+Process Taken to Update: Always use the Apps Update Notification and Install directly from the App.
+"
+556;Version 10.141 Limited to 10Mbps ;open;2021-04-02T14:08:31Z;2021-04-24T18:59:36Z;https://github.com/yuliskov/SmartTubeNext/issues/556;12;"Just as the title says, SmartTubeNext version 10.141 is limited to 10Mbps.
+This makes watching 4k content impossible except on the lower frame rate content.
+I have troubleshooted the problem down to SmartTubeNext itself. 
+
+My system = NVIDIA Shield Pro (2019 model.)
+
+Is there any fixes/workarounds for this problem? "
+2746;"18.58 - ""Can't load content - Sign in"" immediately after content is loaded";closed;2023-07-26T01:46:48Z;2023-07-31T08:02:32Z;https://github.com/yuliskov/SmartTubeNext/issues/2746;11;"Previous version was working. I did have some problems with the subtitles so I updated since the new version had some fixes for that.
+
+Right after update, it will load the Home screen content, but after a flash glimpse of those, it immediately goes to the ""Can't load content 1) check date time 2) network 3) proxy. etc - Sign in""
+
+I tried revalidating my log-in via web browser on computer but it still does the same thing.  Tried rebooting device, same thing.
+
+Nvidia Shield 2017."
+1888;ad blocking on firestick 4k no longer works;open;2022-09-25T06:11:58Z;2023-02-17T06:44:36Z;https://github.com/yuliskov/SmartTubeNext/issues/1888;11;About 2 months ago (early August 2022) ad blocking stopped. Was hoping an update would remedy this?
+1818;Video source isn't working or incorrect time error;open;2022-08-25T01:22:57Z;2023-04-16T08:55:26Z;https://github.com/yuliskov/SmartTubeNext/issues/1818;11;While logged into a YouTube account or signed out I keep getting 'Video source isn't working or incorrect time error' on many videos using a Firecube and using version update 15.81. I checked the same videos on my PC and they work fine. What is causing this problem? The last several updates have caused so many problems.  It is so frustrating.
+1410;Support for chapters in videos;closed;2022-04-07T06:42:19Z;2023-01-11T22:27:19Z;https://github.com/yuliskov/SmartTubeNext/issues/1410;11;"Hi there!
+
+I've been using SmartTubeNext for a few years as my main YouTube player and so far I've really been enjoying, thank you for the amazing work!
+
+I wondered if it would be possible to add support for chapters in videos (example here : https://www.youtube.com/watch?v=pvkTC2xIbeY). Many of the videos I watch are chaptered and this helps a lot when looking for a specific part.
+
+I don't know how it could be implemented exactly, maybe it could be a simple mark on the progress bar to indicate where the chapters at first?
+
+Chapters navigation (aka jumping to another chapter) could be done by adding two buttons on the toolbar, one to go the previous chapter, another to go to the next chapter.
+
+And when jumping to a new chapter, maybe the chapter's title could be temporarily shown above the progress bar, just below the title - or permanently shown if the user chooses so in the settings.
+
+What do you think of this?
+
+Thanks in advance for your answers!"
+1301;Nvidia Shield Pro HDR and 5.1 Problem;open;2022-02-09T22:11:09Z;2022-02-14T08:02:34Z;https://github.com/yuliskov/SmartTubeNext/issues/1301;11;good evening, first of all I just want to say that is a great app!!  I have a small problem with the Nvidia Shield Pro, although HDR and 5.1 no longer work.  on my fire tv cube has HDR and 5.1 works on their app.  I don't know if you already know the problem?  and wanted to let you know maybe they can somehow fix it in the next update or later.  Thank you very much for this app and of course I will donate something for this great app, keep it up.
+1109;Videos are no longer added to History section. Error occurred.../cache/PlayerData;open;2021-12-03T14:19:24Z;2021-12-08T00:34:15Z;https://github.com/yuliskov/SmartTubeNext/issues/1109;11;"Hi!
+
+Since yesterday i am having this error on all my devices on the app's stable versions like v13.47_r or v13.31_r
+Some devices were booted up just to test (not used in a while and everything was fine before) and i also uninstalled and reinstalled/cleared data on multiple devices but i am still having the problem
+
+Basically any new video that you play does not go to the History section anymore (on other apps or in PC browser works fine) and i get this error the first time i load a video with a clean cleared cache app:
+
+Error occurred. Detailed info has been saved to /storage/emulated/0/Android/data/com.teamsmart.videoamnager.tv/cache/PlayerData
+
+When i manually go to that folder path on a device that has root it says it's empty
+
+Please help as i use the History section a lot. Thank you"
+1001;Audio language selection;open;2021-10-23T20:33:01Z;2023-07-21T22:24:26Z;https://github.com/yuliskov/SmartTubeNext/issues/1001;11;"YouTube added something silly, now video's can have multiple audiotracks, and currently there is no way to switch them on SmartTubeNext.
+
+This wouldn't be an issue but I don't speak any Spanish which it seems to love to default to."
+626;Default option to automatically select best video/audio for playback based on video being played.;open;2021-05-18T12:25:47Z;2021-05-18T20:46:55Z;https://github.com/yuliskov/SmartTubeNext/issues/626;11;"There needs to be a ""default"" option for both video and audio quality so that whatever clip you play plays back at the best (highest) video and audio quality based on the clip automatically, just like ""default"" in the SmartYouTubeTV app. Having to manually set the video/audio quality for every video played seems to be a step backwards in functionality from what was available in the SmartYouTubeTV app."
+505;Bridge not easily accessible / installable;open;2021-03-09T17:18:21Z;2022-01-19T02:39:40Z;https://github.com/yuliskov/SmartTubeNext/issues/505;11;"I'm a longterm user of SmartYouTubeTV / SmartTubeTV
+
+I really appreciated the feature you incorporated into an old release of SmartYouTubeTV, where it would prompt new installs to install the bridge-app that allowed your FireTV to recognize SmartYouTubeTV as being YouTube itself / send voice searches for YouTube there / launch with the YouTube icon / etc.
+
+When I installed SmartTubeTV, the old bridge updated to redirect to SmartTubeTV which was great :)
+
+However, on a friend's fire stick, I had an issue a while back where after installing / uninstalling / reinstalling SmartYouTubeTV, the bridge app disappeared – as did any notification to install it
+
+Moreover, when more recently I uninstalled SmartYouTubeTV altogether, and installed SmartTubeTV from scratch, I was never given an option to install the bridge app – and thus, the FireTV refused to recognize SmartTubeTV as YouTube
+
+I was at a loss as to what to do, as the bridge apk has no public listing that I could find – be it in the releases for SmartTubeTV, SmartYouTubeTV, or anywhere else on the internet
+
+HOWEVER, after digging through the issues of SmartYouTubeTV, I finally found this issue: https://github.com/yuliskov/SmartYouTubeTV/issues/697
+
+In it, you directly link to the bridge app – https://github.com/yuliskov/SmartYouTubeTV/releases/download/stable/Amazon_SYTV_Bridge.apk
+
+So I was able to download that, install it onto the FireTV, and viola – it worked perfect!
+
+So... basically, I recommend making a public listing for that Amazon_SYTV_Bridge.apk – be it here on this github in the releases, or elsewhere – and / or giving a menu-option in-app to install said .apk within SmartTubeTV
+
+Thank you for your consideration!"
+232;Link with TV code;closed;2020-12-02T16:37:05Z;2022-08-04T02:39:51Z;https://github.com/yuliskov/SmartTubeNext/issues/232;11;Where's the 'Link with TV code' option?
+173;Feature request: Add SponsorBlock to app;closed;2020-11-21T19:19:10Z;2021-01-26T07:55:50Z;https://github.com/yuliskov/SmartTubeNext/issues/173;11;"From the website [https://sponsor.ajay.app/](https://sponsor.ajay.app/) :
+_SponsorBlock is an open-source crowdsourced browser extension and open API for skipping sponsor segments in YouTube videos. Users submit when a sponsor happens from the extension, and the extension automatically skips sponsors it knows about. It also supports skipping other categories, such as intros, outros and reminders to subscribe._
+
+I use it on my phone in Youtube Vanced. It's amazing."
+2270;Video Keep Buffering On Firestick TV;closed;2023-03-01T05:19:18Z;2023-03-12T01:19:06Z;https://github.com/yuliskov/SmartTubeNext/issues/2270;10;I've been having the issue where. it plays the video and then buffers for a long time after then goes back to buffering. Im guessing it has to do with YouTube way of how they now deal with adblockers.
+2120;Feature request: Absolute dates in video player;open;2023-01-09T17:54:40Z;2023-01-29T22:16:30Z;https://github.com/yuliskov/SmartTubeNext/issues/2120;10;"As of a couple months ago (I think) the way the video player displays dates changed. It used to switch between relative date like ""2 years ago"" and absolute date like ""January 17 2022"". Now it _only_ shows the relative date. 
+
+My request is to either restore the previous behavior where it switches every time or allow the user to specify their preference for relative or absolute date in the configuration. "
+1916;How does ad blocking works in this app? ;open;2022-10-11T21:33:46Z;2023-07-06T23:42:37Z;https://github.com/yuliskov/SmartTubeNext/issues/1916;10;"Hello, 
+
+How does ad blocking works in this app? is it because there is web container with ublock support in this app or something else? Please direct me to any part in readme or existing thread that explain this part. I tried searching but did not get good results. 
+
+Cheers"
+1885;在小米电视上如何安装？;open;2022-09-24T11:18:14Z;2023-02-23T01:48:23Z;https://github.com/yuliskov/SmartTubeNext/issues/1885;10;"下载15.99放在U盘上，然后插入小米电视，找到APK文件，提示风险，点击继续安装，然后出现错误10000
+
+是有什么特殊的安装方式吗"
+1769;After updating to 15.78 Smarttubenext;open;2022-08-12T03:27:20Z;2022-08-15T06:11:37Z;https://github.com/yuliskov/SmartTubeNext/issues/1769;10;"I know ur probably seen a ton of these, but after installing the 15.78 SmartTubeNext update. The one thing I haven't seen mentioned yet is that it will play videos that are live, but all the others. It acts like it will start then crashes back to the top of the list of. Whatever page ur in the goes blank again and when it comes back on its on the video you were just trying to watch. It's doing this on my android phone and all of my fire tv devices!! Before I had downloaded the update the videos were working, but the were buffering. Like every 3 seconds!!
+One other thing that was happening the past couple days to me atleast. Was while watching SmartTubeNext I kept having one specific app that kept loading all on its own. That app was the Peacock app on my amazon fire tv. I do wonder though if any of these issues could be because of Amazon's latest update that the have tinkered with the Developer settings?"
+1766;Fixed: Thanks yuliskov!! ;closed;2022-08-11T23:17:27Z;2022-08-13T17:13:57Z;https://github.com/yuliskov/SmartTubeNext/issues/1766;10;"New update fixes the playback issue! I know this technically not a new “issue” but I just wanted to create this to thank the dev(s)! SmartTube Next is the best thing ever. Absolute Legend(s)! 
+
+"
+1645;Playback speed too many options;open;2022-06-26T17:16:34Z;2023-02-24T21:38:55Z;https://github.com/yuliskov/SmartTubeNext/issues/1645;10;"Playback speed too many options 1.00 1.05 1.10 1.2 1.3 1.5 ...
+
+Please reduce options 1.00 1.25 1.5 1.75 2.00
+
+Thank you"
+1497;[Issue] Date of publishing of the video, missing from thumbnail small row;open;2022-05-06T22:53:19Z;2022-08-15T12:52:04Z;https://github.com/yuliskov/SmartTubeNext/issues/1497;10;"Since 4-5 days, date of published video is randolmly missing from most of the thumbnails second row, for most channels.
+Instead we get useless info like ""Song"", ""New"" etc. 
+'Date of publish' is a must, next to 'channel name' and even more important than 'view count'. Establishing how old is a video is now impossible without playing. Not all videos, not all channels have this problem. But most, do.
+And looks like original YT has similar problem, maybe there is a bypass on STN end also, from our brave @yuliskov  
+
+
+"
+1448;MrBeast Video in some random language I can't understand;closed;2022-04-20T21:06:20Z;2022-12-30T17:11:27Z;https://github.com/yuliskov/SmartTubeNext/issues/1448;10;"For some reason when I watch a MrBeast Video it isn't in English but in some other language. On my phone the same Video is in english as normal. I haven't seen this on any other channel than MrBeast.
+https://user-images.githubusercontent.com/59659167/164322806-6d9125d0-c2e1-437c-be4e-adbf3294f3e8.mp4
+
+Also, why is there a newer version available than even the Beta? I have updated to 14.62, but that version doesn't exists in the releases??"
+1221;(BUG) Microphone on search button stopped working with new Shield TV update!;open;2022-01-13T02:44:16Z;2022-07-28T22:00:30Z;https://github.com/yuliskov/SmartTubeNext/issues/1221;10;"I just upgraded my Shield TV Pro 2019 Model to SHIELD Experience 9.0 ""Android 11"" and now the Microphone does not work on the search button.
+
+Can you fix this please?"
+1097;Channels catalogues are missing;open;2021-11-30T12:00:40Z;2021-12-16T02:55:19Z;https://github.com/yuliskov/SmartTubeNext/issues/1097;10;When I open a channel in SmartTubeNext all videos are in one big mess and the channel's calalogization is missing. If the channel is big, it's not possible to locate a needed playlist, e.g. video lessons sorted by topics.
+1083;View videos in a playlist;closed;2021-11-25T18:55:34Z;2022-01-02T13:19:52Z;https://github.com/yuliskov/SmartTubeNext/issues/1083;10;"For a short time if went to a channel or did a search and found a playlist then clicked on it, I would see a list of the videos in that playlist. I loved it. It made it so much easier to find a video I wanted to watch. 
+
+Now it seems that is gone and it's back to the original way which is click on a playlist and it plays the first video, which sucks and really damn annoying. If I want to watch a video in the middle of the playlist I have look at the first row of suggested videos and then hope the video I want to see is listed. I also have to hope they are in the right order, which isn't always the case.
+
+The only thing close to that what it shortly once was is; select the playlist, bring up the menu and select Open Channel which then options the list of video for that playlist. Just two little problems; one is that is oddly worded then, and two it'll always open in a grid. What happened before was that the playlist would list the videos in a row. I wouldn't have too much of a problem with that either way but give an option for it.
+
+Speaking of options, if people want it so they click on a playlist from another channel and it just plays the first video, fine. But then you have people like me that want to see the list of videos. So give everyone that option of what happens when we click the playlist and how that list is displayed.
+
+Side note, the Pin/Unpin From Sidebar is missing for playlists other than my own."
+1066;[bug] Cast isnt listed on phone after TV goes idle or app is exited;open;2021-11-20T15:01:31Z;2023-08-25T14:16:36Z;https://github.com/yuliskov/SmartTubeNext/issues/1066;10;"Hello,
+
+I have an issue with **casting** to my Sony BRAVIA while using **SmartTubeNext**.
+
+Issue : The option to cast to the app disappears from the phone Youtube / Vanced app after some time, typically after jumping to another app or turning off the tv (not a real turn off, it puts the tv on a ""sleep like"" mode).
+
+Solutions : Force stopping the app to restart it or doing a full restart of the tv solves the issue momentarily. It shows again the option on the phone. 
+
+Tested : I tested the setting cast > run in background both on and off, I tried to remove all device and link again, I tried with two different phones and I tried with vanilla Youtube and Youtube Vanced (root), all without success.
+
+Request : please investigate & fix or advise."
+910;[Bug] The FPS on Presets are not respected anymore in recent versions.;closed;2021-09-19T21:47:37Z;2022-01-09T17:47:17Z;https://github.com/yuliskov/SmartTubeNext/issues/910;10;"The bug is that the fps is not respected anymore. 
+I use the preset with 2160p 30fps vp9 hdr. All the streams that was automatically selected use 30fps max, even if it makes the resolution fall to 720p/30fps. Now it plays 60fps regardless of the preset. The preset of 30fps is completely ignored.
+
+The intented behavior is to STN to select the best resolution that have 30fps max. 
+Because my x96max+ only plays well in increased speed with maximum os 30fps.
+The last working version is 11.98."
+793;Unable to update app on Chromecast with Google TV;open;2021-08-07T03:41:24Z;2023-06-27T13:42:51Z;https://github.com/yuliskov/SmartTubeNext/issues/793;10;"I really love this app, and it works fine on my fire stick and I can install the APK find on a Chromecast Android TV v10 with Apr 5 2021 security patch.
+     The issue is the built in upgrade feature will not let me update the application. I have set the application up in the OS to allow unknown sources but the update process seems to get caught up in a loop, no matter if I allow the app to install unknown sources or not. The OS will not let SmartTubeNext install a new APK.
+     This may be an issue with Android TV v10 Apr 5 2021 update but I could not find a bug to validate it. 
+     AFTVnews Downlonloader works to install apps from their app on the same device with the same process.
+     I am a huge fan and only trying to alert you that this is happening. Thank you! "
+530;Autoplay keeps playing the same video over and over again;open;2021-03-23T03:57:50Z;2022-02-05T09:43:38Z;https://github.com/yuliskov/SmartTubeNext/issues/530;10;"1) Play a video
+2) Let the next one play automatically.
+2) After about 2-3 autoplays, you eventually end up playing the same video you played 2-3 plays ago.
+
+We need a way to make sure that autoplay only plays new videos and not the same video twice, even if you autoplay 100 videos in a row. "
+462;Casting stopped working;closed;2021-02-11T17:16:52Z;2021-03-20T13:09:58Z;https://github.com/yuliskov/SmartTubeNext/issues/462;10;After the last few updates casting from Vanced at least, has stopped working. Connecting via code does nothing.
+83;Bug:  subscription button doesn't work;open;2020-11-03T12:40:54Z;2020-11-05T15:56:24Z;https://github.com/yuliskov/SmartTubeNext/issues/83;10;On Sony x950G.  I have notice the subscribe button doesn't behave as intended, when attempting to subscribe and/or unsubscribe.  Thank you Devs for your work.  The app is really progressing.   
+2708;[Request] Possible App for Odysse;open;2023-07-13T19:48:48Z;2023-07-18T14:46:37Z;https://github.com/yuliskov/SmartTubeNext/issues/2708;9;"Hello, Mr Yuliskov! 
+
+I love Smart Tube Next. Forgive me if this is not the ideal place for this, but I would like to ask: Is there any chance to also develop an Android TV app for Odysee?
+
+I found [this project](https://github.com/linimin/lbry-androidtv) but It's not working properly.
+
+I would be happy if you could consider this option.
+
+Thank you!
+
+Greetings."
+2650;Smart Tube Application - Black Screen and Buffering Issue;open;2023-06-26T04:33:08Z;2023-08-19T17:15:03Z;https://github.com/yuliskov/SmartTubeNext/issues/2650;9;"Title: Bug Report: Smart Tube Application - Black Screen and Buffering Issue
+
+**Description:**
+
+Hello everyone,
+
+I wanted to bring your attention to a bug that I encountered while using the Smart Tube application. When I open the application for the first time, the videos do not start playing, instead, I am presented with a black screen. Despite having a stable internet connection, the videos continue buffering repeatedly without playing.
+
+**Steps to Reproduce:**
+
+1. Open the Smart Tube application.
+2. Navigate to any video.
+3. Observe that the video does not start playing and a black screen is displayed.
+4. Notice that the video continuously buffers without playback.
+
+**Expected Behavior:**
+
+Upon opening the Smart Tube application, videos should start playing smoothly without any buffering issues, given a stable internet connection.
+
+**Actual Behavior:**
+
+Instead, the application displays a black screen and continuously buffers the video content, preventing playback.
+
+**Additional Information:**
+
+1. The issue persists even when I have a strong and stable internet connection, ruling out network-related problems.
+2. I have tried closing and reopening the application, as well as restarting my device, but the issue persists consistently.
+3. I have verified that other video streaming applications on my device do not exhibit similar issues, suggesting that the problem is specific to the Smart Tube application.
+
+This bug significantly hampers the user experience, as it prevents seamless video playback upon opening the application. I hope that the development team can look into this matter and resolve it as soon as possible.
+
+Please let me know if you require any additional information or if there is anything I can do to assist in resolving this issue.
+
+Thank you.
+
+Best regards,
+soumik bose"
+2497;Channels view not showing latest videos for some channels since 17.88;open;2023-05-10T17:12:20Z;2023-05-26T22:54:48Z;https://github.com/yuliskov/SmartTubeNext/issues/2497;9;"Since updating to 17.88, if I go to ""Channels"", for some channels several of the newest videos aren't displayed. As an example, one channel with the issue shows me a video from 9 days ago at the top, using the context menu to ""Open channel"" I can see that there are four newer videos which also show in my subscriptions tab.
+
+This is on FireTV Stick."
+2278;Video source isn't working or time is wong;closed;2023-03-02T16:40:43Z;2023-03-04T12:54:42Z;https://github.com/yuliskov/SmartTubeNext/issues/2278;9;"Pretty much any video over 5 minutes or so the error in the title comes up.
+This started at 14.23_r and is also happening with 24
+Running a Google 4k TV dongle. "
+2182;buffer for 30s every 30s;open;2023-01-28T23:59:38Z;2023-02-13T19:55:32Z;https://github.com/yuliskov/SmartTubeNext/issues/2182;9;I have a 4-month-old Google TV.   After the last update, SmartTube stops every 30s to buffer for 30s.  I tried the lowest video settings and the highest buffer and can't get better than that.  Beta has the same problem as stable.  I reset the Wifi and got a new modem.  No change.  Is this something YouTube is doing to hobble SmartTube?
+2042;ANOTHER REMINDER ABOUT THE BUFFER ISSUE;open;2022-12-08T18:05:43Z;2023-02-25T13:42:32Z;https://github.com/yuliskov/SmartTubeNext/issues/2042;9;"Please, there has to be a solution to fix this, I know it isnt just me that deals with this. Hell, even making it clear you are aware of the issue would make this a little better in terms of the issue being noticed. 
+
+Issue is on a firestick 4k, and it isnt just on mine specifically, all firesticks in the house have the issue. Not even revanced has a buffer issue and that's a modified non ad apk. 
+
+1gb up and down internet, and to top it off, nothing with my internet is blocking your application. It's all clean. Yet the buffer issue has been an issue for a year for me. Sometimes it's less of an issue after certain updates and sometimes its absolutely horrible after other updates. But here's the kicker! Deleting your app after an update that ruined it and downloading a downgraded version does nothing, the issue is just as bad as it was after a broken update. There has to be an underlying issue here but I'd like to know if it's your app or is it google changing things in their api that's fucking with your app... cause this is a headache.. nah, a migraine. 
+
+Acknowledgement would be nice at the very least though. "
+1787;Dependency updates.;closed;2022-08-15T14:44:22Z;2022-08-29T18:42:52Z;https://github.com/yuliskov/SmartTubeNext/pull/1787;9;"Added a Dependabot config if you wish to activate Dependabot on the Master github. Along with this, 6 dependencies were updated.
+
+Dependency updates:
+
+- firebase-crashlytics-gradle: 2.7.1 -> 2.9.1
+- flexbox: 1.0.0 -> 2.0.1
+- google-services: 4.3.10 -> 4.3.13
+- gradle: 3.5.4 -> 7.2.2 (Almost 5 years outdated!?)
+- material: 1.2.1 -> 1.6.1
+- webpdecoder: 2.0 -> 2.0.4.12.0"
+1656;"Please bring back the old ""Search functionality"" with search history listing";open;2022-06-30T03:43:52Z;2022-07-19T14:58:01Z;https://github.com/yuliskov/SmartTubeNext/issues/1656;9;"Hello!
+
+I have been using Smart YT TV for a couple of years now, it's very good alternative to the ""original"" YT TV app, but since some releases of the new Smart Tube Next the functionality of the search feature went in a very wrong direction. What I mean is that it's no longer memorizes and lists the previous searches in a vertical list, where was easy to follow and choose from. I would like to ask why did you change this function, as it was so practical and convenient before? Now, with the recent versions of Smart Tube Next I have to input every search, every time again. It was much easier, when it was remembering and showing all my previous searches listed under the search filed. And I would like to ask if there's a possibility to bring back this feature working as it was before?
+
+Hope I was expressing my request understandable and clear, I was tied to clarify as much as possible, but ask if any more clarification would be needed. 
+
+Thank you and waiting for the reply!"
+1655;Recommended channel;closed;2022-06-29T18:59:44Z;2022-06-30T21:17:21Z;https://github.com/yuliskov/SmartTubeNext/issues/1655;9;"STN Beta Version 15.06 I dont know if this is related to the Nvidia shield or STN, However all other apps work as expected. Under Customize your home screen/customize channels/STN Beta/STN Beta channels the Recommended channel just says ""Channel is empty"". Well it isnt obviously. Turning the switch on and off does nothing if i open the app there are videos showing up in recommended . If i go to the youtube app and switch on recommended the youtube one works fine. Tried rebooting tried unplugging for a few minutes tried clearing the cache . Thing is under play next i have a lot of videos and i would prefer not to lose them if i can help it so i have not cleared data . So is this a shield thing or ?"
+1635;Voice search recently stopped working;open;2022-06-19T15:12:28Z;2022-07-10T16:05:45Z;https://github.com/yuliskov/SmartTubeNext/issues/1635;9;"A few updates ago, voice search stopped working for some reason. I updated to the latest  version within the app, currently 14.99, and it now correctly records the voice query but the search results don't show up automatically, it shows the text it recorded overlapping with the ""speak to search"" placeholder text:
+
+![IMG_20220619_110805](https://user-images.githubusercontent.com/1582300/174487746-94e1699d-0f8b-461c-81d6-b558e8d06a84.jpg)
+
+I have to hit the back/return button on my remote and then the placeholder text disappears and the search completes with results.
+
+I have ""instant voice search"" and ""autofocus on search results"" enabled:
+
+![IMG_20220619_111030](https://user-images.githubusercontent.com/1582300/174487860-0084b0f6-46ff-4203-adff-898f44f454ee.jpg)
+
+This app has been working great otherwise, thanks!"
+1564;App stopped working yesterday, can't access account-related content anymore;closed;2022-05-26T09:38:32Z;2022-08-11T14:38:28Z;https://github.com/yuliskov/SmartTubeNext/issues/1564;9;"The app worked great until yesterday, I can now no longer access my _channels_, _subscriptions_, _history_ and _playlists_.
+
+I can still sign in fine, but none of the items mentioned above work. _Channels_ just displays a black empty screen, _Subscriptions_ displays 'can't load content', _History_ displays 'can't load content', _Playlists_ displays three playlists with empty grey boxes where the icons used to be.
+
+I tried signing out and signing back in, reinstalling the app and using the latest beta instead of the latest stable version of _SmartTubeNext_ - no change.
+
+My device is an NVIDIA Shield TV Pro 2019 with the latest official unmodified firmware.
+
+**Please help :)**"
+1347;Home screen channels ;closed;2022-03-07T13:34:27Z;2023-05-06T16:03:56Z;https://github.com/yuliskov/SmartTubeNext/issues/1347;9;"I installed the app on Android 8, but the app does not appear in the list of “Home screen channels” as well as the list of “Play Next” 
+
+But it works without problems on Android 9
+ 
+It also works on Android 8, but an old version of the app .
+"
+940;Option to Hide shorts below a chosen length;open;2021-09-27T04:31:41Z;2022-12-10T19:23:46Z;https://github.com/yuliskov/SmartTubeNext/issues/940;9;"Option to Hide shorts below a chosen length. I have the Hide shorts from Subscriptions option checked/enabled, Yet this option is only hiding videos below 50 seconds, This is leaving shorts in subscriptions 51 seconds and up. It would be nice to have the option to hide anything below 1 minute. 
+Thank you for such a great app and all your hard work put into it. "
+924;Feature Request: Random Play order of Playlist.;open;2021-09-22T12:24:48Z;2023-03-07T18:40:00Z;https://github.com/yuliskov/SmartTubeNext/issues/924;9;Please allow to play videos in a random order from a playlist.
+720;Error installing on MiTV5;open;2021-06-28T13:03:50Z;2021-07-21T09:34:14Z;https://github.com/yuliskov/SmartTubeNext/issues/720;9;"Hi, I tried installing latest beta version on Mitv 5,but I shows error code of -1000.Tried resetting thr TV back to factory setting but it does not work. Anyone can advised or had succeeded in installing on MITV5?
+
+Thanks..
+
+![IMG_20210616_233216](https://user-images.githubusercontent.com/86604881/123640989-516ecb00-d854-11eb-9c61-0488dc7f2ce4.jpg)
+"
+700;Slow load with good internet. Videos stop;closed;2021-06-23T18:13:38Z;2021-06-25T17:09:46Z;https://github.com/yuliskov/SmartTubeNext/issues/700;9;"Hi, I've been having issues lately, can't watch videos in 1080p, it just can't load properly and sometimes videos in 720p get stuck again and again.
+
+I don't have issues when playing 1080p videos on other apps like Disney plus for example. Is there anything I can do to fix this? Or is it a bug?"
+692;Random problem with buffering of videos;open;2021-06-20T18:48:47Z;2021-06-26T01:58:04Z;https://github.com/yuliskov/SmartTubeNext/issues/692;9;"SmartTubeNext has some issues with buffering of videos on a NVidia ShieldTV. Description: 
+
+1. Not every video is affected. 
+2. The problem is not related the codec 
+3. The problem is not related to the internet connection. I have no problem to play a certain 4k UHD video with 18mbit/s while 2k videos with 5mbit/s have this problem. A cross check with the Google YT app confirms this. Everything is fine there
+4. Instead of building a buffer of 50s the buffer is emptying 
+5. I had a similar issue with my web reader and had to delete data like cookies. 
+
+To me it's looking like a change of protocol on the side of Google"
+457;Picture in picture;closed;2021-02-10T16:14:55Z;2021-02-17T03:25:47Z;https://github.com/yuliskov/SmartTubeNext/issues/457;9;Hello, I've been using this app for a while now, however, I cannot get picture in picture to work. When I select only audio, background playback works, but selecting picture in picture does nothing. 
+219;Proxy Settings;open;2020-11-27T08:16:47Z;2022-10-12T01:32:07Z;https://github.com/yuliskov/SmartTubeNext/issues/219;9;"As you know Youtube is blocked in some countries: https://en.wikipedia.org/wiki/Censorship_of_YouTube
+So please add proxy support (Socks5).
+Will be great.
+Thank you very much."
+131;Some videos cannot be played on beta 9.3;closed;2020-11-12T02:45:16Z;2020-11-13T14:41:02Z;https://github.com/yuliskov/SmartTubeNext/issues/131;9;Lots of videos can't be played, I tried on Sony ATV and Mibox S they couldn't play either.  I am using the latest Smarttube next beta 9.3.  With Google's Youtube, all of the above videos play well.  For example : https://youtu.be/O9W4lpwPaVk
+2696;SmartTube好卡  网页youtube播放正常;open;2023-07-11T01:53:08Z;2023-08-31T23:43:54Z;https://github.com/yuliskov/SmartTubeNext/issues/2696;8;SmartTube好卡  网页youtube播放正常 手机播放也正常 是否有什么IP地址没走OPENCLASH  能告知吗  我在OPENCLASH设置
+2692;Smart tube.  Beta.;open;2023-07-10T13:31:32Z;2023-07-25T09:44:32Z;https://github.com/yuliskov/SmartTubeNext/issues/2692;8;"Hi. Sir.
+Since you have have done updates over the last days.
+
+Some of the videos that would play with No problems.  Now try to play them and some of there new videos 
+From my channels.  Eg  Don's Family Vacations. It won't play the screen goes black and you get a message shows up at the bottom of the screen.  Video Source isn't working or incorrect time. 
+There are others that play with no problems.  Iam using the latest version SmartTube beta 18.46.
+
+Thank you. 
+Greg. "
+2307;ATV smart youtube tv bridge cannot be installed;closed;2023-03-09T10:56:52Z;2023-06-03T22:44:24Z;https://github.com/yuliskov/SmartTubeNext/issues/2307;8;"I installed STN beta 17.35 on sony TV, it keeps prompting me to enable voice search and install ATV smart YouTube TV bridge but it cannot be installed.
+
+No such problem on the hand phone. 
+
+"
+2274;Buffering issue on Firestick;open;2023-03-02T03:49:12Z;2023-03-08T23:07:59Z;https://github.com/yuliskov/SmartTubeNext/issues/2274;8;Anyone having buffering/lagging issues on Smart-Tube TV for Firestick? Anytime I try to watch a video, it would lag for a few seconds or longer than that. It would lag constantly or randomly at times. Any fixes?
+2165;History blank ;closed;2023-01-25T03:29:48Z;2023-01-27T02:09:06Z;https://github.com/yuliskov/SmartTubeNext/issues/2165;8;History not coming up
+1946;SponsorBlock Alternate Server;open;2022-10-25T01:43:45Z;2022-10-28T22:42:23Z;https://github.com/yuliskov/SmartTubeNext/issues/1946;8;Sponsorblock often goes down. It would be great if you could add alternate sponsorblock servers to select or even auto-select if one is down.
+1822;Sponsorblock not working;open;2022-08-26T18:25:38Z;2023-06-17T07:03:23Z;https://github.com/yuliskov/SmartTubeNext/issues/1822;8;"Hi,
+
+since a couple of days sponsor block is only working sporadically. Most videos appear as if they don't have sponsors, while they have. The sponsor section won't be skipped
+
+Has anyone an idea what's going on?"
+1328;Cannot sign in with account ;open;2022-02-26T20:01:47Z;2023-06-27T11:19:25Z;https://github.com/yuliskov/SmartTubeNext/issues/1328;8;"I'm unable to sign into my account on both the stable and beta versions. On my TV, the code shows up fine. When I enter the code on YouTube.com/activate on my phone, I get the following error:
+
+400. That’s an error.
+
+Error: invalid_request
+
+state_wrapper is needed."
+1230;Add support for phones that don't have a touch screen. (Low resolution devices.);open;2022-01-18T12:35:00Z;2022-01-27T13:39:32Z;https://github.com/yuliskov/SmartTubeNext/issues/1230;8;"I've been using SmartTube on my folder phone which doesn't have a touch screen. And it works really well with the keypad on the phone.
+![Screenshot 1](https://user-images.githubusercontent.com/82555878/149937873-78b8905e-c142-4468-b219-d1862c04f4f3.png)
+
+The problem is that my phone has a low resolution, but the thumbnail and UI font(letters) resolution are too high which makes them look blurry. 
+![Screenshot 2](https://user-images.githubusercontent.com/82555878/149937892-78a2e2bb-191c-447a-b65b-24b2b68dadf2.png) ![Screenshot 3](https://user-images.githubusercontent.com/82555878/149937948-025423a3-4a3d-44b6-a394-a9c4cea26374.png)
+
+You might say just use YT Vanced. But the UX is terrible on a phone that has a non-touch screen. And plus the microG crashes on my phone so I can't login to YouTube. 
+![Screenshot 4](https://user-images.githubusercontent.com/82555878/149937915-07f55a36-12d8-4722-8825-f6b06d32206a.png)
+
+So I was wondering whether you could add support for non-touch screen phones. The list below are the things I've been thinking about for better UX on folder phones.
+
+1. Automatically match the thumbnail and UI font resolution depending on the screen size. (or at least give us a option in the settings.)
+
+2. Make the font size bigger for smaller displays.
+ ㄴ Earlier I said that the UI font resolution was too high, which make the letters look blurry. But also the font size is too small to read. It would be better if the font size would automatically match or at least could be changed in the settings. 
+
+
+
+
+(YT Vanced on LG Folder)
+![Screenshot 5](https://user-images.githubusercontent.com/82555878/149937998-7fd023af-95d4-45d7-bf9d-0b1b62f5630a.png) ![Screenshot 6](https://user-images.githubusercontent.com/82555878/149938003-cc02f548-5974-41f8-a84e-2db27fbd7760.png) 
+
+
+
+
+(SmartTube on LG Folder)
+![Screenshot 7](https://user-images.githubusercontent.com/82555878/149938002-1e2955d0-174d-4ff4-b675-b4b288bf9178.png)
+ 
+3. Let users change the UI scale up to 2.0x.
+ ㄴ The UI scale limit is 1.4x right now. I think it would be better if the UI scale would automatically change or at least could be scaled up to 2.0x. 
+
+ "
+1118;STN Randomly Opens;open;2021-12-06T14:41:11Z;2023-02-04T00:03:30Z;https://github.com/yuliskov/SmartTubeNext/issues/1118;8;"STN 13.60, Shield Pro 2019
+
+STN will open semmingly randomly in a middle of a movie on Plex, or a game on NFLGamePass (Not tried with other apps).
+No button pressed whatsoever."
+871;Smart YoutubeTV  no longer blocks commercials;open;2021-09-07T04:14:29Z;2021-09-07T19:50:44Z;https://github.com/yuliskov/SmartTubeNext/issues/871;8;here are two examples  using Amazon Fire TV  and Google Nexus Player   https://youtu.be/zH9snE2On0g 
+739;No sound for first ~5 seconds;open;2021-07-05T20:14:21Z;2022-01-03T12:43:27Z;https://github.com/yuliskov/SmartTubeNext/issues/739;8;SmartTubeNext installed on FireStick. When first starting a video, there is no sound for the first 5 seconds or so. Once sound does start, I can rewind and sound will play from the beginning of the video as normal.  Or, once the video starts, I can pause it for about 5 seconds, and when I resume, the sound will then play. 
+733;[Feature Request] Bypass Age Verification ;open;2021-07-01T14:01:54Z;2021-08-30T21:10:05Z;https://github.com/yuliskov/SmartTubeNext/issues/733;8;"Some users use the application without logging into their account, in which case it is not possible to play video with age restriction.
+There is a way to bypass this restriction
+
+A simple request with this url does the trick:
+`https://youtube.com/get_video_info?html5=1&video_id=WomAGoEh-Ss&eurl=https%3A%2F%2Fyoutube.googleapis.com%2Fv%2FWomAGoEh-Ss&c=TVHTML5&cver=7.20190319`
+
+unfortunately, instead of the standard json, an url query is returned that needs to be decoded and then take responseContext from it"
+684;Can't download the video.;closed;2021-06-18T12:47:08Z;2021-07-15T10:28:20Z;https://github.com/yuliskov/SmartTubeNext/issues/684;8;it shows can't download the video. It try to refresh again but again the it shows can't download video.
+640;Unknown video decoder error;open;2021-05-31T18:08:54Z;2021-06-21T09:12:33Z;https://github.com/yuliskov/SmartTubeNext/issues/640;8;Getting this error on all videos - forced stop and restarted, but didn't help.
+515;No code being generated  to sign in/activate;open;2021-03-16T02:16:40Z;2021-03-18T10:46:51Z;https://github.com/yuliskov/SmartTubeNext/issues/515;8;just reinstalled   cannot sign in as no code is being generated
+62;(Bug) Unable to sign in with Google Account;open;2020-10-31T00:17:20Z;2020-11-04T18:01:12Z;https://github.com/yuliskov/SmartTubeNext/issues/62;8;I have been unable to sign into SmartTube Next with my Google Account. I'm using a Nvidia Shield TV Pro 2019.  I go to YouTube.com/Activate, put in the on screen code and click through Google's screens until it says I'm hooked up to that version of YouTube. But on my TV nothing happens. If I click Done it just goes back to the main screen. Unlike other apps that immediately log me in. What am I doing wrong? I'm on the current 5.3 Beta. I'd love to try this app since I use your other Smart YouTube app. But not unless I can link it to my Google account.
+2806;Out of memory;open;2023-08-18T19:33:09Z;2023-09-03T07:08:39Z;https://github.com/yuliskov/SmartTubeNext/issues/2806;7;"
+![IMG20230818222836](https://github.com/yuliskov/SmartTubeNext/assets/29517243/dc4b736a-e628-4abc-87ca-7f27838303fb)
+
+"
+2735;"18.50 breaks my setup - ""Incorrect time"" error";open;2023-07-21T22:25:47Z;2023-08-09T07:54:34Z;https://github.com/yuliskov/SmartTubeNext/issues/2735;7;"18.50 on Amazon FireTV 4k with pihole 
+Shows spinning wheel, then error shows up ""...incorrect time"", and starts spinning again, and again, etc.
+
+I reverted back to 18.28 and it works great.
+Fix?"
+2731;"[Regression] Short videos stopped showing in ""Subscriptions"" section";open;2023-07-20T15:47:44Z;2023-08-06T17:52:48Z;https://github.com/yuliskov/SmartTubeNext/issues/2731;7;"Version STN is 18.52. I have unchecked all options ""hide"" for short videos. Checking and unchecking these options again did not fix the problem."
+2586;[Bug] streams not visible in channels. Only in subscribtions;open;2023-06-01T16:12:57Z;2023-06-27T14:56:07Z;https://github.com/yuliskov/SmartTubeNext/issues/2586;7;See title. Anyone knows a fix?
+2175;Videos are not loading;open;2023-01-25T23:03:19Z;2023-06-23T06:51:14Z;https://github.com/yuliskov/SmartTubeNext/issues/2175;7;"After an update videos are not loading. I don't even get the loading circle. I see only the player buttons and video is not loading including its information (duration, description e.t.c)
+
+I tried different versions to check when it broke:
+
+Stable 16.58 is working
+Stable 16.70 is NOT working
+
+Beta 16.60 is working
+Beta 16.69 is NOT working
+
+Is this a known issue?
+My device is a generic chinese box (TX3mini)."
+2055;History re-enables itself after disabling it by using STNext;closed;2022-12-11T16:40:36Z;2023-02-08T13:24:45Z;https://github.com/yuliskov/SmartTubeNext/issues/2055;7;"Hello there !
+
+First, thank you so much for this app, it's gold! It's so life changing compared to the official app!
+
+Since my last update I encounter this bug, here the steps to reproduced it:
+
+_ In my YT preferences (on the official YT website) I chose to deactivate the YT history, the YT history is deactivated and empty
+
+_ When I watch YT on my PC or Mobile the history remains deactivated and empty
+
+_ However, when I watch a video via SmartTubeNext, my history is automatically reactivated and the videos I’ve watched begin to be saved in it
+
+_ The history is then active everywhere (YT PC and mobile), and I have to manually deactivate it again and clear it
+
+_ It remains deactivated until I re-watch a video via STNext again
+
+I didn't have this problem before, but I hadn't updated for several months so I don't know what version I was on before the bug appeared.
+
+Thanks in advance and thanks again for your app!"
+1832;The following content is not available on this app;open;2022-08-31T22:32:15Z;2022-10-09T15:55:00Z;https://github.com/yuliskov/SmartTubeNext/issues/1832;7;"Had this on several videos today:
+
+The following content is not available on this app. Watch this content on the latest version of youtube."
+1778;Can't playback above 480p without a lot of buffering ;open;2022-08-13T12:46:23Z;2022-08-27T06:33:09Z;https://github.com/yuliskov/SmartTubeNext/issues/1778;7;"Hello there, I have noticed since one of the last few updates the playback can't handle going above 480p avc 0.87mbps. if I do I get lots of buffering as if the internet isn't able to keep up. However my internet is nearly 90mbps where I am and also I am able to watch 4k content just fine using the normal YouTube app. 
+
+It's on a Sony Bravia Smart TV running Android TV. Any ideas? 
+
+Thanks :)"
+1646;False Positive by Blocker + Disable Blocker on Per Video Basis;open;2022-06-28T13:29:29Z;2022-06-29T17:50:03Z;https://github.com/yuliskov/SmartTubeNext/issues/1646;7;"I tested out this app on my TV and the first video I watched was skipping constantly chunks of the video it thought were ads when in reality it was just the regular content. The video in question is: https://www.youtube.com/watch?v=EaRhaLhhakw
+
+Other videos did not cause this issue so my guess is something in that video is causing a false positive. I also looked for a way to disable the block for that video and couldnt find anything so I would like to suggest a new button on the pause menu/overlay which disables the block for the current video only to alleviate the problem.
+
+edit: i've uploaded a picture to show how broken the block sections are on the timeline. [https://cdn.discordapp.com/attachments/312731347720601600/991341701740372130/P_20220628_095145.jpg](https://cdn.discordapp.com/attachments/312731347720601600/991341701740372130/P_20220628_095145.jpg)"
+1548;"[Bug] Videos keep playing on ""Stop playback after one video""";open;2022-05-19T18:42:41Z;2022-06-03T22:35:27Z;https://github.com/yuliskov/SmartTubeNext/issues/1548;7;"This is a bug related to the autoplay feature.
+
+When are watching a video with the ""Stop playback after one video"" enabled, if you open the overlay and browse ""Suggestions"", when the video finish playing, it will automatically start playing the next video from Suggestions tab.
+
+Expected behaviour:
+When ""Stop playback after one video"" is enabled, and you are browsing the overlay with ""Suggestions"" ""From your recent searches"" and ""Uploads for channel"", the video should pause when it is finished, and not automatically play the next one from suggestions."
+1282;Error -  /com.liskovsoft.smarttubetv.beta/cache/ModernClientData;open;2022-01-30T20:49:44Z;2022-02-06T23:10:56Z;https://github.com/yuliskov/SmartTubeNext/issues/1282;7;"I have on 2 Sony TVs the same error, appearing every half an hour on TV screen even the app is not playing to send some file to support team than a path to storage/../com.liskovsoft.smarttubetv.beta/cache/ModernClientData
+
+The version is 13.94
+
+"
+1134;Can't play video in China;open;2021-12-16T12:24:48Z;2022-02-07T04:39:49Z;https://github.com/yuliskov/SmartTubeNext/issues/1134;7;I use VPN to watch Smarttubenext. 2 weeks ago, I can't use samrttubenext. but youtube app works well and I also can visit youtube by web browser. Is there anything happened?
+751;"Getting ""Can't download the video"" error on random videos or playlists";closed;2021-07-15T00:56:15Z;2021-07-16T07:48:58Z;https://github.com/yuliskov/SmartTubeNext/issues/751;7;"I'm using the beta and was working great but now none of the music videos I'm trying to play works or some random videos. Then some videos work, but never the same one that don't work.
+I have uninstalled, and reinstalled but still no luck. Just strange I was able to share from phone then same video won't load.
+
+Thanks!"
+708;set clock;open;2021-06-25T23:30:46Z;2021-11-06T04:22:00Z;https://github.com/yuliskov/SmartTubeNext/issues/708;7;how do you change the clock to 24 hours like to read 21.34 insteed of 9.34 pm.
+704;Buffering issue's ;open;2021-06-25T14:35:39Z;2022-03-02T21:29:19Z;https://github.com/yuliskov/SmartTubeNext/issues/704;7;Still having random buffering issues and random can't load video message .I have 3 firesticks doing it on all of them . Not nearly as bad as before but still occurring . I can usually stop the app reload it but today one video will buffer no matter what I did . 
+691;Random stuttering ;open;2021-06-19T14:59:32Z;2021-09-11T16:34:35Z;https://github.com/yuliskov/SmartTubeNext/issues/691;7;"Hi
+I'm running version 11.40 on my Sony KD-65XF9005. Unfortunately, some videos are quite unplayable and others work fine. Initially, the video preset was set to 4k VP9+HDR. I've turned it down to FHD avc, but testing the same video, stuttering still appears, though less frequently.
+
+I can see that the buffer size drops to 0. Even when buffering for a while, the video is played faster than the TV buffers. I've set buffering to high. Any ideas what do do? The TV is connected via ethernet.
+
+Edit: in the ""nerd view"" while playing a video, it says ""hardware accelerated = true""
+
+![16241148696395888765516019906518](https://user-images.githubusercontent.com/8209643/122646540-f9cbb380-d11f-11eb-92a3-6bfd4fdf9991.jpg)
+"
+474;Subscribed Channel Content;open;2021-02-15T02:45:32Z;2021-03-26T13:28:45Z;https://github.com/yuliskov/SmartTubeNext/issues/474;7;"Hi Team,
+
+I am having difficulty going through the channels subscribed and their new content at the same time. Can you please take a look at the attached screenshot and see if something like that is possible
+
+![IMG_20210215_081443](https://user-images.githubusercontent.com/79069112/107900038-f5bb3980-6f65-11eb-934a-4c3a9654a140.jpg)
+"
+412;voice search does not work;open;2021-01-31T07:05:52Z;2022-11-22T22:58:17Z;https://github.com/yuliskov/SmartTubeNext/issues/412;7;amazon fire tv stick light, Current software version, SmartTubeNext current software version. The voice search shows no response. Keyboard search works. Is there a keyword or a special start button for the search? [BTW: 5€ for the breakfast coffee is on the way via Paypal].
+328;[Feature Request] Autoremove videos from Watch later after watching!;open;2021-01-07T17:21:41Z;2023-08-30T21:21:43Z;https://github.com/yuliskov/SmartTubeNext/issues/328;7;"It would be extremely convenient, especially because it takes forever to remove every video by hand.
+
+And by the way, thank you a lot for your great app!"
+218;Need a way to  completely disable VP9;closed;2020-11-27T03:02:21Z;2020-12-03T20:19:40Z;https://github.com/yuliskov/SmartTubeNext/issues/218;7;"My Sony Bravia (2015, FHD) TV plays VP9 at 5 fps or so, which is pretty much unwatchable. Choosing ""FHD, 60fps, AVC"" profile doesn't seem to prevent the player from ever trying VP9, for example, it has switched to 720p VP9 on me on many videos, which were available in 720p AVC (mainly abc7ny news vids), that would have been fine. Having to manually switch it over to AVC on a per-video basis is extremely annoying and gets old really fast."
+122;(Bug) Watched videos are not updated properly;closed;2020-11-10T12:08:50Z;2020-12-10T06:37:22Z;https://github.com/yuliskov/SmartTubeNext/issues/122;7;"Videos watched on SmartTube is not marked properly. Even if you watch the video till the end, on youtube site/app it shows the video as just started. Happens all the time. Since youtube thinks this is not completely watched, it will just suggest the video again.
+
+Screenshot:
+![image](https://user-images.githubusercontent.com/62756931/98672155-5ccfbd80-237b-11eb-8c03-5892933965bb.png)
+"
+20;Build does not work;open;2020-10-18T16:50:47Z;2021-06-02T15:07:04Z;https://github.com/yuliskov/SmartTubeNext/issues/20;7;"First, the build instructions fail to mention the Android SDK dependency.  (Sort of a ""duh"", but a pain.)  Once I resolved that, I ran the build instructions and got:
+
+```
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':smarttubetv:buildStbetaDebugPreBundle'.
+> Could not resolve all task dependencies for configuration ':smarttubetv:stbetaDebugRuntimeClasspath'.
+   > Could not find com.zlc.glide:webpdecoder:2.0.4.9.0.
+...
+```
+
+I found `SharedModules/constants.gradle:    glideVersion = '4.9.0'` and (https://github.com/zjupure/GlideWebpDecoder#dependency-integration) ""If your project use glide version below 4.10.0, you can only use webpdecoder 1.6 version or below.""  So I patched it to version 1.6, tried again, and:
+
+```
+* What went wrong:
+Execution failed for task ':smarttubetv:processStbetaDebugGoogleServices'.
+> File google-services.json is missing. The Google Services Plugin cannot function without it.
+```
+
+So I have to define a Firebase project?  Then I have to do it again because I didn't give the right package name.  Then:
+
+```
+> Task :smarttubetv:processStbetaDebugGoogleServices
+Parsing json file: C:\cygwin\home\t-bone\SmartTubeNext\smarttubetv\google-services.json
+
+> Task :sharedutils:compileDebugJavaWithJavac FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sharedutils:compileDebugJavaWithJavac'.
+> Could not find tools.jar. Please check that C:\Program Files\Java\jre1.8.0_261 contains a valid JDK installation.
+```
+
+Sigh.  I've got a JRE but not a JDK installed.  Install that.  Now I've just got:
+
+```
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+```
+
+Ugh, I installed the wrong JDK (nothing said what was the right one).  Uninstall, try again...  Finally.  It took over an hour but I completed the build.
+
+... but where is the output?  I don't have anything to install and run?
+
+Maybe I need to run `./gradlew build` to get something useful?  But it dies on (untranslated string) lint errors!  So try `./gradlew build -x lint`?
+
+```
+...
+> Task :common:compileStorigDebugJavaWithJavac FAILED
+C:\cygwin\home\t-bone\SmartTubeNext\common\src\main\java\com\liskovsoft\smartyoutubetv2\common\app\models\update\AppUpdateManager.java:5: error: package com.liskovsoft.appupdatechecker2 does not exist
+import com.liskovsoft.appupdatechecker2.AppUpdateChecker;
+...
+\SmartTubeNext\common\src\main\java\com\liskovsoft\smartyoutubetv2\common\app\models\update\AppUpdateManager.java:77: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+...
+```
+
+So remove those.  Then
+
+```
+> Task :common:compileStorigDebugJavaWithJavac FAILED
+C:\cygwin\home\t-bone\SmartTubeNext\common\src\main\java\com\liskovsoft\smartyoutubetv2\common\app\models\update\AppUpdateManager.java:5: error: package com.liskovsoft.appupdatechecker2 does not exist
+import com.liskovsoft.appupdatechecker2.AppUpdateChecker;
+                                       ^
+```
+
+Can you please just publish an APK?"
+2522;Subtitles tagged as English (United Kingdom) not recognized;open;2023-05-14T19:48:43Z;2023-05-20T16:25:21Z;https://github.com/yuliskov/SmartTubeNext/issues/2522;6;Subtitles which are tagged as *English (United Kingdom)* are not shown in the subtitle selection menu. For example, this [video](https://youtu.be/GDSf2h9_39I) has multiple subtitle tracks including one tagged as *English (United Kingdom)*, it is possible to select from those various subtitle tracks except the British English one.
+2418;Nvidia Shield - Videos not playing since 17.68;open;2023-04-16T20:44:19Z;2023-08-17T18:02:04Z;https://github.com/yuliskov/SmartTubeNext/issues/2418;6;"Hi,
+
+I updated to 17.68 roughly 30 minutes ago and no videos are now playing. Instead they remain in a paused state, on a black screen, with no timestamp information. Only the video fitle, channel name, views, upload time and UTC clock are visible as well as the context menu.
+
+In an attempt to troubleshoot the issue I have restarted the app, force stopped, cleared cache and also restarted the Shield but with no success.
+
+Please let me know if there is any other information required."
+2385;Shorts no longer hidden after latest update;open;2023-04-09T04:44:11Z;2023-04-11T20:59:50Z;https://github.com/yuliskov/SmartTubeNext/issues/2385;6;"After installing 17.61 on my Sony Android TV, Shorts are no longer hidden, even though I have ""Hide shorts from Home"" selected. I still see the ""Shorts"" section on the home screen."
+2254;Restore more granular playback speed options ;closed;2023-02-23T09:19:53Z;2023-04-03T16:10:07Z;https://github.com/yuliskov/SmartTubeNext/issues/2254;6;"I'm not quite sure when the change happened since there have been a few updates recently (as of 2/23/23) but as of version 17.20, the speed options have been reduced to only 0.25 increments.
+
+I'm here to request that more speed options be put back because the 0.25 jumps are too big. Going from 1.0 to 1.25 is just too much on some videos. For videos that I want to watch ""naturally"" but reduce the time, more granular speeds between 1.0 and 1.5 are needed. Above 1.5, I think the 0.25 increment is ok.
+
+And I found the previous available 0.95 option really useful for watching foreign language videos that I am learning or have some comprehension of, because it made it easier to decode the words without making it sound unnaturally slow. Below that 0.75, 0.5, 0.25 is ok.
+
+Now for those who thought there were too many options, I also was once annoyed that there were so many options, because clicking and scrolling through the menu was a bit troublesome, especially in the previous UI where clicking the Clock icon would pop up the full menu of speeds and if you were at 3.0x and wanted to go back to 1.0x, you would have to scroll all the way back down. However, I'd made the suggestion (not claiming sole credit) to have single click turn on/off to toggle speed-adjusted playback, and click-hold pop up the speed adjustment menu. When that got implemented, that reduced a lot of cases of having to click through the whole menu because you could go back and forth between 1.0 and selected speed with one toggle click.
+
+I later got the Rii K25 remote control for my Shield (because I was sick of changing batteries on the slim remote) and discovered a great feature: the PageUp/PageDown buttons worked on SmartTubeNext to adjust the playback speed up and down without going into any menu and it was great to be able to adjust speed at any time without having to go into the UI and interrupting playback. So this might be another option for people annoyed with the longer menu, find an alternative remote with PgUp/PgDown keys. Not sure what other remotes work for this but the K25 does.
+
+So please put my vote in for restoring the previous longer list of speed options: 0.25, 0.5, 0.75, 0.95, 1.0, 1.05, 1.1, 1.2, 1.3, 1.4, 1.5, 1.75, 2.0, 2.25, 2.5, 2.75, 3.0.
+
+If it needs to be configurable in the Settings, maybe just have a full option list of speeds from 0.25 to 3.0 in 0.05 increments and the user can select the ones they want to appear in the menu."
+1943;No chapter support?;open;2022-10-23T09:48:14Z;2023-01-31T05:34:41Z;https://github.com/yuliskov/SmartTubeNext/issues/1943;6;"I just downloaded and installed the app, and I was pretty surprised to find out that there doesn't seem to be chapter support. On the stock YouTube app, you can seek left or right, and if you hit the up button, you'll have the ability to easily navigate through all of sections of the video. This is super useful especially for music playlist videos, where you can use it to skip or go back to certain songs. It's also really useful for skipping intros or sections in certain videos.
+
+Given how feature packed this app seems to be, with settings for every single little thing, I'm a little perplexed as to why this functionality would be omitted. It almost makes me think I must be missing something, and the functionality can be enabled in the settings or something. I dug around a fair bit however, and I was not able to find any setting for it.
+
+Are there plans to add this feature in the future? Not having chapters is almost a deal breaker. "
+1918;Please add options for AV1;open;2022-10-12T15:44:31Z;2023-08-09T12:12:13Z;https://github.com/yuliskov/SmartTubeNext/issues/1918;6;On the YouTube website in settings under, playback and performance there is now AV1 Settings. AV1 allows for better stream quality with lower bandwidth requirements so if y'all can add in those options that would be great
+1797;Unable to unpin from sidebar;closed;2022-08-19T03:26:19Z;2022-10-12T14:41:34Z;https://github.com/yuliskov/SmartTubeNext/issues/1797;6;There is not longer a button to unpin a pinned channel from the sidebar? I have looked at every single setting and section. How do we remove channels from the home page sidebar?
+1785;[Feature Request] 'Don't Recommend Channel' in long press menu.;closed;2022-08-15T08:55:45Z;2023-06-29T11:18:15Z;https://github.com/yuliskov/SmartTubeNext/issues/1785;6;"I love this app, but I've run into an issue that's related to how YouTube handles things from the server side. Its how they differenciate 'Not interested' from 'Don't Recommend Channel' in the algorithm. I'll try to be brief.
+
+YouTube is recommending channels I don't like or want in Smarttubenext. Normally, I handle this by opening the mobile app on my phone, finding a video from the channel, and choosing 'Don't Recommend Channel' from the menu. Recently, the Smarttubenext app on my TV and my other devices are getting different recommendations and I can't do this anymore. 
+
+The result is Smarttubenext's home tab is flooded with recommendations I HAAATE and can't get rid of. And this is also because of server side handling. Choosing 'Not Interested' doesn't flag the algorithm to ignore the channel the video is from, but just that one video. So YouTube's algorithm will systematically feed _Every single video from that channel to me in batches of two to three videos per refresh,_ Presumably until I've blocked every last one individually. To stop a channel from showing up completely, 'Don't Recommend Channel' has to be used. 
+
+Please add 'Don't Recommend Channel' support to the long press menu. YouTube's algorithm is testing my sanity, what little there is. I would be so grateful. "
+1683;Search no longer working;open;2022-07-15T05:31:44Z;2022-08-09T12:00:34Z;https://github.com/yuliskov/SmartTubeNext/issues/1683;6;"Search no longer works and not videos auto populate on search as recommendations. On latest stable on a google tv ( whatever the newer one is , android with google tv? Chrome cast with google tv? Something like that.
+
+anyone else have this issue?"
+1575;"Screen turns ""solid dark green"" when playing HDR video with option ""Ambilight/Aspect ratio/Screenshots fix"" enabled";open;2022-05-28T14:28:53Z;2022-06-07T01:11:25Z;https://github.com/yuliskov/SmartTubeNext/issues/1575;6;"Good day,
+Thank you for your wonderful app!
+
+Because I had problem with [taking screenshoot return solid black picture](https://github.com/yuliskov/SmartTubeNext/issues/1561) , so I did enable option ""**Ambilight/Aspect ratio/Screenshots fix**"" in Settings - Video player - Developer options.
+That issue was fixed. However, whenever I play HDR video no matter which resolution, my screen turn solid dark green.
+If I disable ""Screenshots fix"" or play video NOT in HDR mode, then it outputs screen normally.
+
+More information:
+1. TCL 55P615 model - Android 11
+2. ""Ambilight/Aspect ratio/Screenshots fix"" option is enabled.
+3. 2160 or 1440 or 1080 or 720 or 480 resolution/60fps/6.96/VP9/HDR
+=> Got solid green screen
+
+![Screenshot_20220528-205913](https://user-images.githubusercontent.com/22109528/170829542-f7fb8253-20b6-41d5-acbf-469e8f7b2290.png)
+![Screenshot_20220528-204945](https://user-images.githubusercontent.com/22109528/170829546-6728c733-6015-4d4c-9a41-6a2b2dda7ba7.png)
+
+Thank you.
+
+"
+1496;[Feature Request] Brightness Control;open;2022-05-06T22:21:34Z;2022-06-04T10:04:00Z;https://github.com/yuliskov/SmartTubeNext/issues/1496;6;"What I found is, that watching YouTube on TV is annoying when it comes to brightness. 
+My TV -I assume most TVs- don't have a good and fast way to change brightness like computers or smartphones do.
+
+For a person mostly watching YouTube when it's dark I'd be great to be a able to adjust the brightness with some simple buttons.
+
+Maybe there's a couple of people that would enjoy  it as well :)"
+1356;Add touch screen controls now that Youtube vanced is gone.;open;2022-03-14T22:32:06Z;2022-10-22T00:19:04Z;https://github.com/yuliskov/SmartTubeNext/issues/1356;6;Youtube vanced is gone they got a C&D from fucking google. Unfortunately this seems to be one of the only alternatives to replace vanced eventually whenever the api breaks. Bit tragically there's barely any touchscreen support (at least Bluetooth & usb controllers work).
+1341;[Bug] Video Format not Supported only when trying to play YouTube Movies (Free with Ads);open;2022-03-01T15:20:07Z;2022-05-17T22:37:10Z;https://github.com/yuliskov/SmartTubeNext/issues/1341;6;"Currently using STN Beta 14.20 on my CCwGTV for the last 6 months. Really enjoying it!
+
+I am having an issue with playing Free with Ads YouTube movies from the YouTube Movies channel. I have not yet found other channels that cause this problem. 
+
+I receive the error message ""Selected Video Format not supported"".
+
+I have attempted:
+-disabling Sponsor Block
+-changing video presets settings
+-changing auto frame rate settings
+-enabling some developer options such as force legacy codecs
+-rebooting CCwGTV
+-clearing STN cache
+-clearing STN data
+
+No successful fix found. The Free with Ads movies work with sponsor block enabled via YouTube Vanced app. Obviously, casting results in the same error message.
+
+EDITS: clarity, conciseness, spelling, grammar."
+1338;Nvidia Shield - Problem when a video is in queuing (9.0.1);open;2022-03-01T10:49:38Z;2022-07-03T18:40:05Z;https://github.com/yuliskov/SmartTubeNext/issues/1338;6;"I have upgraded my Shield to the version Experience 9.0.1.
+Now I have the problem that when a video is finished playing from the queue and the next video starts, it stops after 3 seconds.
+Playing the second video in a queue is no longer possible.
+I have already tried all the solutions in the development settings in the app, but I can't fix the error.
+Hopefully you can help me further, thank you.
+
+translated by deepl."
+1158;Add/remove from watch later playlist;closed;2021-12-22T16:14:14Z;2021-12-30T14:59:45Z;https://github.com/yuliskov/SmartTubeNext/issues/1158;6;"Hi,
+
+this feature had been added a while ago. As of STN 13.71 Beta this isn't available anymore. There is no setting that I've found to add this to the context menu.
+
+Although it is still possible to add videos to the watch later playlist by going through the ""add/remove from playlist"" menu. The individual menu entries are what are missing.
+
+~~Something I didn't use that often but is also missing is the feature to ""add/remove from playback queue"". This was in the same context menu.~~ Playback queue option was unchecked in context settings."
+1085;4K HDR not playing on Shield TV Pro on LG OLED C17;open;2021-11-26T09:45:56Z;2022-07-09T15:16:13Z;https://github.com/yuliskov/SmartTubeNext/issues/1085;6;I switch from a Sony XE9305 to a LG OLED 65C17 and when i show on my Shield TV Pro 2019 now a 4K HDR Video on my new LG i get a black screen. Normal Videos are playing fine and also 4K but not 4K HDR. With the native Youtube App on the LG 4K HDR is playing fine.
+1070;Video freezes for about 3 seconds at the start or every time Sponsor Block is activated ;open;2021-11-21T06:32:57Z;2022-01-14T16:46:18Z;https://github.com/yuliskov/SmartTubeNext/issues/1070;6;"Problem just started about 3 or 4 days ago. Current version is STN Beta 13.51, but whatever I updated from today also had the problem. 
+
+The video will freeze for about 3 seconds, while the audio continues. Happens at the start of every video, or every time Sponsor Block skips any segments. The segment will skip, the picture will freeze while the audio plays correctly, and then the picture jumps to the proper time and continues as normal until the next sponsor block segment. Tried clearing cache and data. "
+1020;homescreen channels;open;2021-10-31T12:22:40Z;2021-11-06T19:22:28Z;https://github.com/yuliskov/SmartTubeNext/issues/1020;6;"It would be very helpful to have a music channel for Android TV launcher channels as you can't install youtube music if you want the voice search to work with smarttube. 
+
+Also having the video preview play for the recommendations channel on android TV launcher would be great and possibly video and audio preview play for a music channel if created for the android TV launcher too."
+976;'Not interested' option not appearing on menu for several random  recommended videos;open;2021-10-15T19:03:34Z;2021-11-01T18:13:57Z;https://github.com/yuliskov/SmartTubeNext/issues/976;6;"The option to flag a recommended video with 'Not interested' (to block it from being recommended again) is missing on several videos.  I find this option very useful in controlling suggested/recommended videos that are displayed for me.  Also is it possible to add the 'Do not recommend this channel' option available on original youtube app? this would be awesome!
+Thanks for the great work!"
+911;Youtube Music Cast Support;open;2021-09-20T05:52:05Z;2023-07-14T12:43:35Z;https://github.com/yuliskov/SmartTubeNext/issues/911;6;Currently since there is no true casting support, i can't seem to get the youtube music app on my phone to work with this app. I was able to add youtube casting via the link with tv code feature, however there doesn't appear to be a way to do this with youtube music. Youtube music is a great way to listen to music only.I would really appriciate the ability to cast youtube music from my phone to smarttubenext. Currently i can cast youtube music to my fire tv via the native youtube app. I wanted to try casting to smarttubenext, primary because of the no ads feature, and additional features smarttubenext has. Alas, i am not able to cast via the tv code on youtube music, so therefore i cannot seem to find a way to do this. Please add support for youtube music, and possibly consider adding full cast support. This would be great if full casting ever gets supported. Thanks again
+860;App stopped working;open;2021-09-02T18:47:19Z;2021-09-20T18:40:38Z;https://github.com/yuliskov/SmartTubeNext/issues/860;6;"No videos are listed.
+Removing and re-adding account won't work. The activation code is not showing.
+Deleting cache/data of the app doesn't help.
+
+Wifi/internet connection is working with other apps. 
+
+Using the latest stable release 
+
+Device: Nvidia shield.
+
+Tried using the app on my smartphone: same issue."
+846;Playlists - slow loading on the sidebar;closed;2021-08-30T12:57:06Z;2021-12-14T14:08:33Z;https://github.com/yuliskov/SmartTubeNext/issues/846;6;"Hi,
+Since last week updates, it takes at least 8-10 seconds to load a playlist on the sidebar. 
+Also, Playlists section load is quite sluggish now (I always used Row style, and it was always fast)
+
+P.S. At some point this summer the app was pretty perfect. Sorry to see that we are back in Beta phase. It feels like it, again. "
+844;Search not showing any results. ;closed;2021-08-29T22:31:13Z;2021-09-06T22:54:37Z;https://github.com/yuliskov/SmartTubeNext/issues/844;6;There are no search results popping up regardless of search. 
+789;[Feature Suggestions] Sponsor Block Improvements;open;2021-08-05T16:39:46Z;2022-01-02T13:19:14Z;https://github.com/yuliskov/SmartTubeNext/issues/789;6;"**Current Issue:** Only one type of action is allowed for all segments of the video.
+**Proposed Improvement:** Introduce a default action type setting for every segment type independently. Some users would like to have the button for skipping Intro, Outro, Subscribe and Non-music segments, but automatically skip sponsor and auto-promo segments.
+
+**Current Issue:** If you choose Notification Type ""Confirmation Dialog"" the dialog covers half of the video and darkens the other half. It requires user action to dismiss if a user wants to watch this segment.
+**Proposed Improvement:** Instead of the current dialog introduce a non-intrusive semi-transparent ""Skip [segment type]"" button in the lower right corner of the video (with some padding), that appears and highlights itself by default for quick ok-button action, similar to ""skip an ad"" button in original YouTube app. When pressing back button on the remote, this skip button fades away (current behavior for the dialog), pressing any other remote button except ok and back, the normal UI appears, with this button attached to the right side next to the tittle and details, above quality info, and fades away with the UI, but remains there for the length of the segment that can be skipped. This allows for the user to have this button accessible whenever user decides to skip the current segment."
+778;Many videos won’t play, says “cannot download video”.;closed;2021-07-29T14:07:50Z;2021-10-12T23:36:21Z;https://github.com/yuliskov/SmartTubeNext/issues/778;6;"Has been happening for last several updates. Briefly working immediately after updating to 11.74 but now won’t work again.
+
+Tried on Shield Pro and a Sony android TV."
+760;Selected video format is not supported loop in 11.62;open;2021-07-16T14:40:15Z;2021-08-21T17:59:33Z;https://github.com/yuliskov/SmartTubeNext/issues/760;6;One of these days I'm going to find an old version download and keep it handy for these situations.  Hasn't been stable since 11.58 with it's on quirks.
+727;Microphone button on AndroidTV-remote does not trigger Youtube Search;open;2021-06-30T06:34:15Z;2021-09-22T03:09:28Z;https://github.com/yuliskov/SmartTubeNext/issues/727;6;"Hi, it would be very convenient, if this would work like the original Youtube App.
+One press on microphone button, talk and getting results... ^^"
+719;Selected video format isn't supported;open;2021-06-27T21:07:41Z;2022-09-25T16:53:18Z;https://github.com/yuliskov/SmartTubeNext/issues/719;6;"On Shield TV
+
+I was in the middle of watching a video and suddenly nothing plays and everything just shows a toast with ""Selected video format isn't supported""
+
+I was on 11.45 and it also popped up an update for 11.46. Installing this update made no difference, nothing plays."
+685;Same issue , different person ;closed;2021-06-18T15:37:35Z;2021-07-15T10:28:30Z;https://github.com/yuliskov/SmartTubeNext/issues/685;6;closed 
+584;Cache;open;2021-04-21T09:36:29Z;2021-04-27T23:15:40Z;https://github.com/yuliskov/SmartTubeNext/issues/584;6;SmartTube Next Apk Keeps buffering on Shield TV Pro and I have to keep on clearing the cache and have to restart the app. 
+558;No playbar showing;open;2021-04-03T12:27:15Z;2021-04-04T12:41:33Z;https://github.com/yuliskov/SmartTubeNext/issues/558;6;"Hello :), 
+
+I am comming from ""Smart YouTube TV"" since it is not working anymore (no play possible). Yesterday I downloaded the ""SmartTubeNext"" app for the first time (""STubeNext_storig_v10.135_r.apk"" to be exact). I really like the design of ""Smart YouTube TV"", but ""SmartTubeNext"" is really much faster. Thank you for that. 
+But unfortunately on the ""SmartTubeNext"" app there is no playbar or anything like that showing when I pause a video (with ""Smart YouTube TV"" it showed a lot of information when paused). For ""SmartTubeNext"" it shows ""nothing"" except the video when ""paused"". Could this please be fixed? I want to see the details, e.g. resolution or playtime ""XX:XX/YY:YY"" (example: 01:24/02:05) so I can see of many time left of a video and how long I have watched (only when clicked ""pause""). 
+Thank you in advance. Keep up the good work. Nice and fast(er) app!
+Have a nice weekend.
+
+PS: Or is this maybe already possible and I just could not find it? 
+
+Edit: My device is FireTV Stick"
+546;Bridhe;closed;2021-03-27T05:07:29Z;2021-09-22T03:08:38Z;https://github.com/yuliskov/SmartTubeNext/issues/546;6;Is there a bridge app I could use on my firestick for SmartTubeNext similar to the SmartYoutubeNext bridge app? If so, where do I get it from? 
+509;Phone refuses to cast/connect;open;2021-03-11T05:31:45Z;2021-05-24T18:37:49Z;https://github.com/yuliskov/SmartTubeNext/issues/509;6;"Tried on 2 different phones with 2 different youtube apps. I tried to clear storage, cache and reinstall, nothing helped.  I also tried to clear devices, no dice. 
+
+It's been very unstable for the past 10 or so updates. But now it's completely broken.
+
+Casting works on the default app."
+504;Casting from iPhone to SmartTubeNext does not work;closed;2021-03-07T16:36:48Z;2021-03-16T13:41:17Z;https://github.com/yuliskov/SmartTubeNext/issues/504;6;"The SmartTube app has been linked to the YouTube app on my iPhone 8 (iOS 14.4) via TV code, and it says connected on the phone, though the blue connecting animation is still there. Playback won't start on the Fire TV/SmartTube app. 
+
+If there's anything I can provide to help with this, let me know. Great app, by the way 😊 
+
+Screenshot:
+![image](https://user-images.githubusercontent.com/20142443/110247211-5f2dd700-7f6b-11eb-8c5c-76d31a597026.png)"
+495;Takes forever to load if at all;open;2021-02-26T22:30:53Z;2021-03-24T10:55:10Z;https://github.com/yuliskov/SmartTubeNext/issues/495;6;"I installed an update earlier yesterday and since then SmartTube has taken upwards of 5 minutes to load anything. Then if I try playing a playlist it won't let me skip to other episodes until it ""loads data"" which also takes about 5 minutes. Anyone have any suggestions?"
+490;Channel sections disappeared;closed;2021-02-25T05:03:01Z;2021-03-02T03:39:31Z;https://github.com/yuliskov/SmartTubeNext/issues/490;6;"App updated to 10.105 this evening. After this, the sections in my channel subscriptions disappeared. Each channel is now just one giant grid.
+
+Running on Nvidia Shield TV Pro, software version 8.2.2 (latest)."
+470;With device screen off, autoplay next video turns screen back on.;closed;2021-02-14T09:33:31Z;2021-03-08T04:19:05Z;https://github.com/yuliskov/SmartTubeNext/issues/470;6;"(using on android tv)
+I have a video playing and I turn the screen off (Android TV: Eco settings, screen off). When the next video starts playing, it turns the screen on again.
+I'm not sure if this started with one of the latest updates or was it always like that."
+287;Can't expand PIP to fullscreen on AndroidTV;open;2020-12-25T06:45:10Z;2021-01-12T04:57:25Z;https://github.com/yuliskov/SmartTubeNext/issues/287;6;"There doesn't seem to be any way to make a PIP (picture in picture) video go back to fullscreen on AndroidTV with a regular remote.
+
+Am I missing how it can be done?
+
+EDIT: In **FireOS 7**, long hold home button gives option to re-exand PIP to fullscreen.  
+
+Does not work on MiboxS (Android TV 9.0).  Long home press brings up app drawer on right hand side
+
+EDIT2: On **MiboxS**, you can press home to go to the main AndroidTV screen.  Under the banner ad at the top there is a ""(No title program)"" notification that you can select open on.  This brings up the option to take the PIP fullscreen."
+246;Feature Request: Default Video Quality;open;2020-12-09T04:28:08Z;2021-01-22T23:43:52Z;https://github.com/yuliskov/SmartTubeNext/issues/246;6;I don't see an option in the settings to set the default quality for videos. Where if our default quality is 4k, and a video didn't offer 4k, it would just select 1080p. At the moment, the app is picking 720p even though videos have higher options. 
+223;subscribe a channel;closed;2020-11-28T16:35:25Z;2020-12-01T12:18:27Z;https://github.com/yuliskov/SmartTubeNext/issues/223;6;I cant find option to subscribe a channel in smart tube next app ? 
+47;Question + feature requests;open;2020-10-27T18:17:42Z;2020-11-18T21:32:12Z;https://github.com/yuliskov/SmartTubeNext/issues/47;6;"Hi!
+Question: does the app have an auto updater (similar to the one from smartyoutubetv)?
+
+If not, I request that feature!
+Also:
+It would be nice, if the video overlay (with all quality, timeline etc. options) would disappear automatically after a few seconds instead of requiring to click back to close it.
+Also:
+It would be nice, if there was a quality preset so I can always run the best possible quality available."
+2668;problem in 2DIN car display ;open;2023-06-30T06:39:59Z;2023-07-06T18:14:39Z;https://github.com/yuliskov/SmartTubeNext/issues/2668;5;"https://mega.nz/file/mIxCmJSY#VcEVLyntaCdPnngpz3h0weVXv8eCtwleROsulxGN-YA
+
+scroll doesn't work. car system has android 7
+any help? thanks"
+2626;Loading wheel keep spinning only, no content is displayed.;open;2023-06-15T11:30:34Z;2023-09-05T03:11:53Z;https://github.com/yuliskov/SmartTubeNext/issues/2626;5;"App version v18.15
+
+Loading wheel keep spinning only, no content is displayed.
+
+Tried:
+1. Restart app
+2. Restart the TV
+3. Reinstall the app
+None of them worked.
+
+Where can we get the log or anything to help with the investigation?"
+2498;While watching playback queue, pressing the skip button deletes remaining queued videos;open;2023-05-10T17:39:05Z;2023-05-26T15:20:43Z;https://github.com/yuliskov/SmartTubeNext/issues/2498;5;Just like the title says, if you have a queue of videos and you skip one by pressing the skip button, it will go to a new video, but the rest of the queued videos will be deleted, rather than going to the next video in the queue. 
+2480;"Playback mode ignored; videos keep playing regardless of setting";closed;2023-05-06T18:45:10Z;2023-05-27T02:57:15Z;https://github.com/yuliskov/SmartTubeNext/issues/2480;5;"I have Playback mode set to ""Pause playback after each video"". As of 17.83, the setting is ignored. SmartTubeNext behaves as if ""Play videos continuously"" is set.
+
+EDIT: ""Repeat current video"" functions correctly. ""Pause playback after each video"" (as mentioned) and ""Stop playback after one video"" do not work.
+
+EDIT 2: ""Pause playback after each video"" does work when opening a channel then playing a video from there."
+2467;Make a separate build for x86 or x86_64;closed;2023-04-29T17:11:53Z;2023-06-16T18:31:18Z;https://github.com/yuliskov/SmartTubeNext/issues/2467;5;"A while ago I made this Pull requests : https://github.com/yuliskov/SmartTubeNext/pull/2407
+
+but it was not merged because the dev said that 
+> Hi, this change could drastically increase the size of the final apk file. It's not good.
+
+So can we instead getting apks of each architecture instead of only a single arm apk ? This could help us a lot with x86 hardware. Not to mention in the future some devices will only ship with 64bit support
+"
+2452;"Can the ""Play Incognito"" be moved further down? ";open;2023-04-25T19:54:33Z;2023-05-17T16:30:13Z;https://github.com/yuliskov/SmartTubeNext/issues/2452;5;"The ""Play Incognito"" option is currently the top entry when you long press a video, which makes it the default option when the menu opens.
+Previously this was the ""Add/Remove from playlist"".
+I would like to request that the playlist entry gets moved to the top again.
+
+I can only really speak for myself, but it is used many times per day in my daily use of STN, but perhaps I'm just a rare case in that I always add things to my Watch Later before I watch them. 
+
+Just wanted to flag that it makes my particular use of the app less smooth"
+2400;"Feature request: Pressing ""back"" to home automatically enables background play.";open;2023-04-14T05:55:56Z;2023-07-12T15:37:16Z;https://github.com/yuliskov/SmartTubeNext/issues/2400;5;"Hey fellas
+
+To avoid having to press ""background playback"" every time you want to browse for other videos, please consider adding the option to automatically background the playback when pressing ""back"" in the video player, in order to get to the menu or search.
+
+Thanks!"
+2273;Everytime I start up a video it is frozen for like 5 seconds or so before it starts playing!;open;2023-03-02T03:27:57Z;2023-04-08T17:04:48Z;https://github.com/yuliskov/SmartTubeNext/issues/2273;5;"Ever since the last few builds including the latest update ""17.24"" everytime I start up a video it is frozen for like 5 seconds or so before it starts playing. When I skip around in the video it still will freeze for a few seconds before playing.
+
+This happens on both Shield TV Pro and on my Sony A80J TV.
+
+I hope this can be fixed.
+
+P.S. Videos start instantly with the official youtube app."
+2257;17.20 - Lost the Video Chapter feature;open;2023-02-24T09:44:04Z;2023-02-28T16:41:41Z;https://github.com/yuliskov/SmartTubeNext/issues/2257;5;After the lastest update 17.20, the video chapter on the video progression bar disappeared... Please fix this it is such a good feature 
